@@ -1,0 +1,2344 @@
+   INSTITUT TEKNOLOGI DAN BISNIS
+            BINA SARANA GLOBAL
+
+                 BUKU PANDUAN
+                        SKRIPSI
+
+                         FAKULTAS:
+
+     TEKNOLOGI INFORMASI DAN KOMUNIKASI
+
+Gedung Utama, Jl. Aria Santika No. 43A Margasari Karawaci Kota Tangerang
+                        Telp. 021-5522727 Fax. 021-5524142
+                          e-mail: kampus@stmikglobal.ac.id
+                               website: www.global.ac.id
+PEDOMAN PENYUSUNAN SKRIPSI
+
+                                           BAB I
+                                   PENDAHULUAN
+
+    Untuk memperoleh gelar Sarjana Komputer (S.Kom.) dalam bidang ilmu komputer di
+Institut Teknologi dan Bisnis Bina Sarana Global, salah satunya mahasiswa wajib membuat
+laporan skripsi. Tujuan skripsi adalah untuk mengenal penerapan metode
+penelitian/perancangan, membina kemampuan memecahkan masalah dan membina
+keterampilan dalam suatu bidang. Skripsi juga dapat merupakan latihan pemahaman
+menyeluruh bagi mahasiswa mengenal pendidikan yang disajikan secara terpisah-pisah
+dalam berbagai matakuliah dan latihan kerja ilmiah mandiri.
+
+    Topik penelitian skripsi tidak terbatas pada satu bidang keahlian melainkan lebih luas
+lagi. Topik penelitian skripsi dapat meliputi perancangan sistem, pembuatan prototype
+website suatu enterprise, pembuatan sistem informasi suatu enterprise berbasis jaringan dan
+multimedia, membandingkan keunggulan dan kelemahan salah satu atau beberapa software
+yang sedang diminati dalam teknologi informasi saat ini, dan menganalisis keuntungan dan
+kerugian suatu teknologi jaringan yang telah diterapkan oleh suatu enterprise. Dengan
+semua tema tersebut diharapkan agar seorang mahasiswa berkesempatan merangkum dan
+menerapkan keseluruhan pengetahuan yang telah diperolehnya.
+
+    Sehubungan dengan hal tersebut, untuk melengkapi ketentuan-ketentuan yang belum
+diatur maupun dalam rangka penyempurnaan keseragaman dalam ketentuan penulisan
+skripsi, maka perlu dibuat BUKU PETUNJUK PENULISAN SKRIPSI yang dapat
+digunakan sebagaimana mestinya. Adapun materi pengarahannya (secara umum) dilakukan
+berdasarkan bidang keilmuan yang diambil oleh mahasiswa dan sesuai dengan kurikulum
+yang ada di Institut Teknologi dan Bisnis Bina Sarana Global dan berdasarkan literature
+review/penelitian. Literature review adalah deskripsi hasil tinjauan pustaka yang dilakukan
+oleh peneliti (peserta Skripsi) terhadap hasil penelitian yang telah ada dan dilakukan oleh
+penelitilain mengenai objek atau tema yang sejenis dengan topik yang hendak
+diteliti/dibahas pada sebuah penelitian.
+
+    Tujuan Instruksional Khusus (TIK) dari penulisan laporan skripsi ini adalah:
+1. Mahasiswa mengerjakan proyeknya sendiri
+2. Penulisan laporan disusun mengggunakan Bahasa Indonesia yang baik dan benar sesuai
+
+    dengan ejaan yang disempurnakan, serta tidak ada kesalahan dalam penulisan ejaan.
+3. Mahasiswa bekerja secara mandiri sesuai dengan panduan
+
+Revisi Juli 2025                                  Page 2
+PEDOMAN PENYUSUNAN SKRIPSI
+
+4. Mahasiswa menjalani bimbingan tepat waktu
+5. Mahasiswa menyelesaikan tahapan proyek secara konsisten
+6. Mahasiswa memahami cara-cara menyitir/mengutip dan menulis daftar pustaka
+
+Revisi Juli 2025                                                              Page 3
+PEDOMAN PENYUSUNAN SKRIPSI
+
+                                        BAB II
+                          PETUNJUK PENYUSUNAN
+
+Skripsi adalah karya ilmiah yang harus dibuat mahasiswa sebagai salah satu persyaratan
+
+dalam memperoleh gelar Sarjana Komputer (S.Kom.) untuk jenjang S1 dalam ilmu
+
+komputer. Terdapat beberapa definisi yang perlu dipahami dalam penyusunan Skripsi
+
+tersebut:
+
+1. Karya Ilmiah
+
+Karya yang ditulis berdasarkan kebenaran ilmiah yang diperoleh dari hasil penelitian
+
+langsung di lapangan (field research) yang ditunjang dengan menggunakan kepustakaan,
+
+buku-buku dan literatur (library research).
+
+2. Ilmiah
+
+Yaitu sesuai dengan kaidah-kaidah ilmu pengetahuan.
+
+3. Ilmu Pengetahuan
+
+Pengetahuan (knowledge) yang disusun secara sistematis, berdasarkan hasil penelitian
+
+(research), pengamatan (observation), pengkajian, dan percobaan-percobaan untuk
+
+menentukan hakikat dan prinsip-prinsip dari hal yang dipelajari.
+
+4. Kompetensi
+
+Dalam melakukan penelitian setiap peneliti dituntut untuk memiliki kompetensi sesuai
+
+dengan penelitiannya.
+
+2.1.Prosedur untuk Mengambil Skripsi:
+
+     Mahasiswa yang akan mengikuti Skripsi harus melalui prosedur yang berlaku
+
+sebagai berikut:
+
+NO.                       PERSYARATAN                             KETERANGAN
+
+1. SKS yang ditempuh (tidak termasuk nilai D dan E)         >130 SKS
+
+2. Melunasi biaya bimbingan skripsi dan biaya kuliah bulan Ya*
+       berjalan
+
+3. Mata Kuliah Metode Riset dan Penulisan, Seminar          Sudah Lulus dengan minimal
+                                                            nilai C*
+
+4. Melakukan Proses Validasi Kelayakan Mengikuti Skripsi    Ya
+
+5. Memiliki Sertifikat TOEFL / TOEIC baik Lokal maupun Sudah Lulus*
+
+           Internasional
+
+       Melengkapi Dokumen (Scan Asli) KTP, Akta Kelahiran,  Validasi Nama pada Ijazah
+6.                                                          yang akan dikeluarkan
+
+       Ijazah Terakhir Legalisir
+
+Revisi Juli 2025                                                              Page 4
+PEDOMAN PENYUSUNAN SKRIPSI
+
+             a. Melampirkan Transkrip Nilai Sementara Semester 1 s.d. 7 Wajib*
+                 dan KRS Semester 8.
+
+     7. b. Siswa Kelanjutan Studi melampirkan Dokumen Konversi
+                 dari Program Studi, Transkrip Nilai Sementara Terakhir
+                 dan KRS Terakhir (berisi matakuliah Skripsi)
+
+*Sesuai ketentuan yang berlaku
+
+Revisi Juli 2025                                                                Page 5
+PEDOMAN PENYUSUNAN SKRIPSI
+
+                                          BAB III
+                                PROSES BIMBINGAN
+
+3.1. Pembekalan Pelaksanaan Skripsi
+         Pembekalan pelaksanaan skripsi diselenggarakan secara rutin pada setiap awal
+
+     semester dalam rangka meningkatkan mutu pelaksanaan skripsi. Peserta skripsi
+     mendapatkan arahan secara umum berupa peraturan dan teknik pelaksanaan skripsi pada
+     semester berjalan oleh Program Studi. Semua mahasiswa yang akan melaksanakan
+     skripsi pada semester yang berjalan wajib mengikuti pembekalan.
+
+3.2. Prosedur Bimbingan Skripsi
+          Prosedur pelaksanaan bimbingan skripsi adalah sebagai berikut:
+
+     1. Proses bimbingan skripsi sudah dimulai sejak SK bimbingan diterbitkan oleh Ketua
+         Program Studi.
+
+     2. Mahasiswa dibimbing oleh 2 orang Pembimbing, yaitu:
+         a. Pembimbing Utama, bertugas membantu mahasiswa mengarahkan materi.
+         b. Pembimbing Pendamping, bertugas membantu mahasiswa mengarahkan teknis
+              penulisan.
+
+     3. Setiap mahasiswa mempunyai satu kartu bimbingan yang berlaku untuk
+         Pembimbing Utama dan Pembimbing Pendamping.
+
+     4. Masa bimbingan hanya satu semester (sesuai jadwal yang ditentukan).
+     5. Setiap kali bimbingan mahasiswa harus berpakaian rapi, bersepatu dan meminta
+
+         dosen pembimbing untuk memberikan catatan-catatan tambahan/rekomendasi pada
+         kolom kartu bimbingan yang ada, serta menandatangani kolom tanda tangan.
+     6. Mahasiswa harus berkonsultasi kepada masing-masing dosen Pembimbing minimal
+         9 kali (jika kurang, pembimbing berhak merekomendasikan mahasiswa tidak
+         mengikuti sidang dan dinyatakan tidak lulus).
+
+3.3. Prosedur Penggantian Judul
+          Penggantian Judul dapat dilakukan apabila:
+
+     1. Selama proses bimbingan dari minggu ke-1 sampai minggu ke-4 mahasiswa belum
+         dapat membuat kerangka penyusunan yang baik akibat dari kurangnya data, dan lain-
+         lain.
+
+Revisi Juli 2025                                   Page 6
+PEDOMAN PENYUSUNAN SKRIPSI
+
+     2. Judul yang dipakai tidak relevan dengan isi Laporan.
+
+         Prosedur Pergantian Judul:
+    1. Mengajukan pergantian judul kepada Ketua Program Studi dan diketahui atau
+
+         ditandatangani oleh Pembimbing Utama.
+    2. Maksimal pergantian judul hanya diperkenankan satu kali dengan melakukan
+
+         evaluasi terhadap judul sebelumnya.
+
+3.4. Pembimbing Utama
+    1. Tugas:
+         a. Memberikan arahan kepada mahasiswa dalam penyusunan materi
+         b. Membimbing mahasiswa dalam pembuatan project/aplikasi
+         c. Memberikan catatan-catatan yang diperlukan pada kartu bimbingan
+         d. Memberikan (entry) penilaian objektif dan penilaian kepakaran ke dalam sistem
+             penilaian Skripsi setelah mahasiswa melakukan presentasi final kepada salah satu
+             pembimbing
+         e. Membubuhkan tanda tangan pada kertas penilaian pembimbing setelah
+             memberikan nilai dan menyerahkannya kepada Fakultas.
+
+     2. Wewenang:
+         Berhak merekomendasikan mahasiswa untuk mengikuti sidang atau tidak.
+
+3.5. Pembimbing Pendamping
+     1. Tugas:
+         a. Membantu Pembimbing Utama dalam proses pembimbingan mahasiswa
+         b. Memberikan arahan kepada mahasiswa dalam penyusunan laporan
+         c. Memberikan catatan-catatan yang diperlukan pada kartu bimbingan
+         d. Memberikan (entry) penilaian obyektif dan penilaian kepakaran ke dalam sistem
+             penilaian skripsi setelah mahasiswa melakukan final presentasi kepada salah satu
+             pembimbing
+         e. Membubuhkan tanda tangan pada kertas penilaian pembimbing setelah
+             memberikan nilai dan menyerahkannya kepada Fakultas.
+
+Revisi Juli 2025  Page 7
+PEDOMAN PENYUSUNAN SKRIPSI
+
+    2. Wewenang:
+         Bersama Pembimbing Utama berhak merekomendasikan mahasiswa untuk
+         mengikuti sidang atau tidak.
+
+3.6. Bimbingan Melalui E-mail
+         Berikut daftar nama pembimbing beserta alamat email yang dapat dihubungi:
+
+No.  NUPTK                  PEMBIMBING                     EMAIL
+
+1 6535758659130143   Abdur Rochman, S.Kom, M.M.                4rochman@gmail.com
+2 7250757658130143   Achmad Sidik, M.Kom                          sidik@global.ac.id
+3 7151754655130103   Agus Sumarna, S.E., M.S.M
+4 5135749650130123   Agustinus Sirumapea, S.P,M.Kom           sumarag123@gmail.com
+5 6337767668130373   Ahmad Arifin, S.E.,M.M.                   agustinus@global.ac.id
+6 3756747648130152   Assoc. Prof. Dr. Dedi., M.Si          ahmadarifin.0589@gmail.com
+7 1554761662130182   Azmi Hardi Roza, S.Pt, M.M
+8 3241772673230333   Detin Sofia, M.Kom                           dedi@global.ac.id
+9 0347751652130113   Dr. Abdul Karim, S.T., M.M               azmiroza4@gmail.com-
+10 9135746647130103  Dr. Isral, S.E., M.M                      sofia.detin@gmail.com
+11 8133744645130083  Dr. Jarudin, M.Pd., M.M               abdulkarim.itb92@gmail.com
+12 0053758659130163  Dr. M. Ramaddan Julianti, M.T            isral.nurdin@yahoo.com
+13 6863746647130062  Dr. Rudy Sunardi, S.Kom, M.T
+14 2855771672230272  Eka Uliyanti Putri Br Bangun, S.Pd.,       jarudin@global.ac.id
+15 9954774675130172  M.Li                                    m.ramaddan@global.ac.id
+16 2858769670230272  Erwana Amarulloh Sunarya, S.Kom,
+17 3653774675230192  M.I.Kom                                    rsunardi@gmail.com
+18 9948767668130412  Ferawati, M.Pd                            ekauliyanti@gmail.com
+19 0053744645130063  Fiqih Hana Saputri, M.Kom
+20 8938744645130242  Halim Agung, M.Kom., M.M                   erwana@global.ac.id
+21 5862771672230272  Ir., Alifian Yuliarsono, M.M          ferawati.071009@gmail.com
+22 3045774675130233  Ken Sabardiman Soetjipto, S.E., M.M.
+23 1353753654200013  Lilis Stianingsih, M.Kom                  fiqihhana@global.ac.id
+24 4457748649130112  M. Bucci Ryando, M.Kom                      halim@global.ac.id
+                     Makmun ZA., M.Kom
+                     Moh Sofjan S.T, M.Kom                 alifianyuliarsono@gmail.com
+                                                            ken.sabardiman@gmail.com
+                                                            lilisstianingsih@global.ac.id
+
+                                                                 bucci@global.ac.id
+                                                               makmun@global.ac.id
+                                                               msofjan70@gmail.com
+
+Revisi Juli 2025                                                  Page 8
+PEDOMAN PENYUSUNAN SKRIPSI
+
+No.  NUPTK                    PEMBIMBING                             EMAIL
+
+25 6637763664130292  Muchamad Iqbal, S.E.,M.Kom                   miqbal@global.ac.id
+                     Muhammad Iqbal Hanafri, S.Pi,M.Kom        miqbalhanafri@gmail.com
+26 5750763664137172  Neng Linda Badratul Laela, S.Pd.I,        lindabadratul@gmail.com
+                     M.Pd                                     nova.sunggono@gmail.com
+27 7659767668230292  Nova Teguh Sunggono, M.Kom                n.nurmaesah@global.ac.id
+                     Nunung Nurmaesah, M.Kom                  n.dewipuspit4@gmail.com
+28 1461769670130313  Nyi Dewi Puspitasari,S.Sos.I.,M.I.Kom     pramana.ap@global.ac.id
+                     Pramana Anwas Panchadria, M.Kom            nabillahrefi@gmail.com
+29 8744766667230332  Refi Nabillah Royadi, S.Kom., S.E.,
+                     M.M                                         surel.ronal@gmail.com
+30 4862761662230202  Ronal Yulyanto Suladi, M.Kom              setiyanto.rd@global.ac.id
+                     Rudi Setiyanto, M.Kom                  rusmawanmawardi@gmail.com
+31 0561770671130312  Rusmawan Mawardi, S.Kom., M.I.Kom          santoso.blu@gmail.com
+                     Santoso, S.S., S.T, S.Kom, M.M.
+32 6954776677230122  Shafirah Fitri, S.Sn., M.I.Kom                safira@global.ac.id
+                     Siti Maisaroh, S.S.,M.Pd                   maekayla27@gmail.com
+33 2047757658131223  Sri Rahayu, S.E., M.Ak.                     srirahayu@global.ac.id
+                     Suparman, S.E., M.Ak.                      zup4rman@yahoo.com-
+34 2856762663130252  Triono, M.Kom
+                     Wieke Ricesa, S.S.T., M.I.Kom                 triono@global.ac.id
+35 4435752653130102  Zainul Hakim, S.Kom., MMSI                   wricesa@gmail.com
+                                                               zainulhakim@global.ac.id
+36 9147752653130113
+
+37 7661773674230222
+
+38 8653748649230112
+
+39 6557758659230233
+
+40 1551750651130093
+
+41 9351762663130183
+
+42 6935769670230302
+
+43 9550748649130073
+
+Revisi Juli 2025                                            Page 9
+PEDOMAN PENYUSUNAN SKRIPSI
+
+                                          BAB IV
+                                TEKNIK PENULISAN
+
+4.1.Aturan Penulisan Naskah
+         Aturan penulisan naskah laporan skripsi adalah:
+
+    1. Ukuran kertas adalah A4, dan berat kertas 80 gram
+    2. Hard Cover kulit depan dan belakang serta pembatas bab, berwarna orange untuk
+
+         prodi SI dan biru tua untuk prodi TI
+    3. Ukuran logo pembatas bab 8 cm x 8 cm
+    4. Dicetak dengan tinta hitam
+    5. Jenis huruf Times New Roman dan ukurannya 12 pt
+    6. Jumlah halaman minimal 80 halaman (tidak termasuk lampiran-lampiran).
+    7. Jarak sebelum (before) maupun setelah (after) paragraf adalah 0 pt
+    8. Jarak Baris (spasi) antar ketikan adalah 1.5 Spasi, dengan pengecualian:
+
+         a. Kutipan dengan panjang lebih dari 3 baris menggunakan 1 spasi (lihat penjelasan
+             lengkapnya pada bagian akhir buku panduan ini)
+
+         b. Judul-judul pada daftar tabel, daftar lampiran dan daftar pustaka yang
+             mempunyai panjang lebih dari 1 baris menggunakan 1 spasi
+
+   9. Batas tepi kertas untuk skripsi:
+         a. 3 cm untuk tepi kiri kertas, 2,5 cm untuk tepi kanan (jika nomor halaman ganjil)
+         b. 3 cm untuk tepi kanan kertas, 2,5 cm untuk tepi kiri (jika nomor halaman genap)
+         c. 2,5 cm untuk tepi atas dan tepi bawah
+             Contoh dapat dilihat pada BAB VI LAMPIRAN DAN CONTOH
+
+   10. Nomor Halaman dengan ukuran font 10 pt.
+         a. Bagian Awal:
+             Penulisan nomor halaman dimulai dari lembar Abstrak, Kata Pengantar, Daftar
+             Isi, Daftar Gambar, Daftar Tabel, Daftar Simbol, dan Daftar Lampiran
+             menggunakan angka romawi huruf kecil seperti i, ii, iii, iv, dst. diletakkan di
+             tengah halaman bagian bawah.
+         b. Bagian teks penulisan dan Bagian akhir
+             1) Penomoran halaman pada Bab I dan seterusnya sampai dengan lampiran-
+                lampiran, dengan angka latin seperti 1, 2, 3, 4, 5, 6 dan seterusnya
+
+Revisi Juli 2025                                  Page 10
+PEDOMAN PENYUSUNAN SKRIPSI
+
+             2) Nomor halaman yang memuat judul Bab, missal BAB I PENDAHULUAN,
+                tidak ditampilkan
+
+             3) Penulisan nomor halaman pada lembar tanpa judul BAB ditulis di tepi
+                kanan/kiri di bagian atas dengan jarak antara batas atas kertas (top margin)
+
+   11. Penulisan Judul Bab dan Subbab
+         a. Judul BAB:
+             1) Kata BAB ditulis di tengah dengan huruf kapital (besar) dengan ukuran font
+                14
+             2) Nomor BAB ditulis dengan angka romawi
+             3) Jarak spasi antar baris judul 1 spasi
+          Contoh:
+
+                                               BAB I
+                                       PENDAHULUAN
+
+          b. Judul subbab, sub-subbab, dan sub-sub-subbab
+             1) Berjarak 2 spasi dari Judul Bab dan dicetak tebal
+             2) Dimulai dengan nomor judul subbab (angka biasa, misalnya 1.1.), judul sub-
+                  subbab (misalnya 1.1.1.) dan judul sub-sub-subbab (misalnya 1.1.1.1.)
+             3) Judul subbab, sub-subbab dan sub-sub-subbab diketik tebal (Bold) dan tidak
+                  diakhiri dengan tanda titik
+             4) Rincian dari subbab, sub-subbab, maupun sub-sub-subbab yang bukan
+                  merupakan judul ditulis dengan huruf 1, 2, 3, dst., turunan berikutnya ditulis
+                  dengan a, b, c, dst., dan turunan berikutnya lagi dengan 1), 2), 3), dst
+             5) Contoh penulisan Subbab, Sub-subbab, dst:
+
+Revisi Juli 2025  Page 11
+PEDOMAN PENYUSUNAN SKRIPSI
+
+                  2.1. Sistem Informasi
+                  2.1.1. Pengertian Sistem Informasi
+                  2.1.1.1. Judul Sub-sub-subbab
+
+                            ..................................................................................................
+                       .........................................................................................................
+                       1. ............................................................................... ........... .
+                       2. ..................................................................................... ..... .
+
+                            a. .................................................................................................
+                            b. ...................................................................
+
+                                1) ....................................
+                                2) ....................
+
+                                    a) .............
+                                    b) .......
+
+              2.1.1.2. Judul Sub-sub-subbab
+                           ...................................................................................
+
+                       ...........................................................................................
+                       ...........dst
+12. Istilah asing sedapat mungkin diterjemahkan ke dalam Bahasa Indonesia. Jika
+     terpaksa dipakai, istilah asing diketik dengan format cetak miring (italic)
+13. Singkatan-singkatan kecuali Akronim (yang sudah ditulis di muka). Dalam skripsi
+     tidak boleh ada singkatan. Contoh:
+             dan sebagainya disingkat dsb. (tidak boleh)
+
+4.2. Abstrak
+    1. Abstrak berisikan:
+         a. Latar belakang penelitian
+         b. Metode yang dipakai dalam proses penelitian atau dalam penyelesaian masalah
+         c. Hasil penelitian
+         d. Kata kunci, sebanyak 3-5 kata kunci. Per kata kunci maksimal 3 kata, yang
+             merupakan inti dari penelitian. Kata kunci ditulis di bawah paragraf abstrak
+    2. Spasi tulisan 1 (single), hanya 1 paragraf, maksimal 250 (dua ratus lima puluh) kata
+         atau 25 (dua puluh lima) baris
+    3. Abstrak dibuat dalam dua bahasa yaitu Bahasa Indonesia dan Bahasa Inggris dengan
+         1 spasi
+
+Revisi Juli 2025  Page 12
+PEDOMAN PENYUSUNAN SKRIPSI
+
+    4. ABSTRAK DALAM Bahasa Indonesia dicetak normal (tegak); sedangkan
+         ABSTRACT dalam Bahasa Inggris, dicetak miring (italic) dan diletakkan pada
+         halaman tepat setelah ABSTRAK
+
+4.3. Kata Pengantar
+         Kata pengantar merupakan pengungkapan perasaan dari si penulis karena selesainya
+
+    laporan tersebut yang di dalamnya berisi rasa syukur dan terima kasih kepada Tuhan
+    YME, Rektor Institut Teknologi dan Bisnis Bina Sarana Global, Wakil Rektor Bidang
+    Akademik, Dekan Fakultas, Ketua Program Studi, pembimbing, orang tua, teman dan
+    lain-lain yang turut membantu dalam proses penyelesaian laporan penelitian.
+
+4.4. Daftar Isi
+         Daftar Isi merupakan himpunan keseluruhan daftar dari laporan yang kita buat yang
+
+    tertera nomor halamannya dengan aturan spasi 1,5 cm. Setiap laporan mempunyai daftar
+    isi yang berbeda.
+
+4.5. Daftar Gambar
+         Daftar Gambar berisi Daftar-daftar Gambar yang dimuat dalam laporan tersebut.
+
+4.6. Daftar Tabel
+         Daftar Tabel berisi daftar-daftar tabel yang dimuat dalam laporan tersebut.
+
+4.7. Daftar Simbol-Simbol
+         Daftar Simbol-simbol menjelaskan simbol-simbol yang dipakai seperti:
+
+    1. Simbol Diagram UML
+    2. Simbol Diagram Hubungan Entitas
+    3. Simbol Bagan Terstruktur
+    4. Simbol Flowchart
+
+4.8. Daftar Lampiran
+         Daftar Lampiran berisi daftar lampiran yang dimuat dalam laporan tersebut.
+
+    Lampiran ini adalah data-data yang diberikan oleh instansi yang diobservasi. Lampiran
+    juga bias berupa Form Kuesioner jika laporan yang dibuat berupa penelitian.
+
+Revisi Juli 2025            Page 13
+PEDOMAN PENYUSUNAN SKRIPSI
+
+Contoh Ukuran Tepi Kertas (Margin) Bagian Atas Laporan Skripsi
+
+                  2,5 cm  2 cm dari Tepi atas
+                           No. Halaman ->
+
+                          Batas Teks
+
+3 cm                                                            2,5 cm
+
+                  2,5 cm
+
+Laporan Skripsi di print bolak-balik, jika bagian bawah, maka margin bagian kiri dan kanan kebalikan
+dari contoh diatas, begitu pula dengan letak nomor halaman.
+
+Revisi Juli 2025                                                Page 14
+PEDOMAN PENYUSUNAN SKRIPSI
+
+Contoh Cover Depan          (Times New Roman, Bold, 16 pt, spasi disesuaikan)  Berbentuk Segitiga
+                                                                               Terbalik maksimal 3
+          Judul Skripsi     JUDUL LENGKAP SKRIPSI                              baris, 1 spasi, spasi
+          maksimal 14 kata                                                     sebelum dan sesudah
+                                                                               (before and after) adalah 0
+
+                            (Times New Roman, Bold, 16 pt)
+
+                                  SKRIPSI
+
+                            (Logo Institut letak di tengah, ukuran 4 x 4 cm)
+
+                            (Times New Roman, Bold, 12 pt)
+
+                                   Disusun oleh:
+
+                            NIM   : 1221010031
+                            Nama  : Indah Fitriani
+
+                            (Times New Roman, Bold, 14 pt)                     (1 spasi, spasi sebelum dan
+                                                                               sesudah (before and after)
+                                                                               adalah 0)
+
+             PROGRAM STUDI SISTEM INFORMASI
+FAKULTAS TEKNOLOGI INFORMASI DAN KOMUNIKASI
+
+               INSTITUT TEKNOLOGI DAN BISNIS
+                        BINA SARANA GLOBAL
+                               TANGERANG
+                                      2025
+
+Revisi Juli 2025                                                               Page 15
+PEDOMAN PENYUSUNAN SKRIPSI
+
+Contoh Lembar Pengesahan Skripsi:
+
+                     INSTITUT TEKNOLOGI DAN BISNIS
+                              BINA SARANA GLOBAL
+
+                               LEMBAR PENGESAHAN SKRIPSI
+
+      PERANCANGAN SISTEM ADMINISTRASI UNTUK MENINGKATKAN
+                    SISTEM PELAYANAN INFORMASI PADA DINAS
+                       KEPENDUDUKAN DAN PENCATATAN SIPIL
+                                 KOTA TANGERANG (Disesuaikan)
+
+                                              Disusun Oleh :
+
+                          NIM                 : 1221010031 (Disesuaikan)
+                          Nama                : Indah Fitriani (Disesuaikan)
+                          Fakultas            : Teknologi Informasi dan Komunikasi (Disesuaikan)
+                          Jenjang Studi       : Strata 1 (Disesuaikan)
+                          Program Studi       : Sistem Informasi (Disesuaikan)
+                          Konsentrasi         : Business Intelligence and Management
+                                               Support System (Disesuaikan)
+
+                                         Disahkan Oleh :
+
+                  Dekan,                                      Tangerang,...............(Disesuaikan)
+Teknologi Informasi dan Komunikasi                                             Ketua,
+
+ (Disesuaikan dengan Fakultas Masing-masing)                   Program Studi Sistem Informasi
+
+                                                               (Disesuaikan dengan Prodi Masing-masing)
+
+(Dr. M. Ramaddan Julianti, M.T)                                 (Achmad Sidik, M.Kom)
+      NUPTK. 0053758659130163                                 NUPTK. 7250757658130143
+
+                                                   Rektor,
+
+                          (Assoc. Prof. Dr. H. Dedi, M.Si)
+                            NUPTK. 3756747648130152
+
+*Tanda tangan wajib asli                                      Page 16
+
+Revisi Juli 2025
+PEDOMAN PENYUSUNAN SKRIPSI
+Contoh Lembar Persetujuan Pembimbing:
+
+                     INSTITUT TEKNOLOGI DAN BISNIS
+                              BINA SARANA GLOBAL
+
+                          LEMBAR PERSETUJUAN PEMBIMBING
+
+NIM                                   : 1221010031
+Nama                                  : Indah Fitriani
+Program Studi                         : Sistem Informasi
+Fakultas                              : Teknologi Informasi dan Komunikasi
+Jenjang Studi                         : Strata 1
+Judul                                 : Perancangan Sistem Informasi Petty Cash
+
+                                       di SMK Avicena Rajeg
+
+Disetujui untuk dipertahankan dalam sidang Skripsi Periode Semester Genap Tahun
+Akademik 2024/2025.
+
+                                                              Tangerang, (Tanggal Sidang) Februari 2026
+
+Pembimbing Utama,                     Pembimbing Pendamping,
+
+                Achmad Sidik, M.Kom.  Siti Maisaroh, S.S., M.Pd
+            NUPTK. 7250757658130143   NUPTK. 865374864923011
+
+*Tanda tangan wajib asli                                         Page 17
+
+Revisi Juli 2025
+PEDOMAN PENYUSUNAN SKRIPSI
+
+Contoh Lembar Persetujuan Penguji:
+
+                     INSTITUT TEKNOLOGI DAN BISNIS
+                              BINA SARANA GLOBAL
+
+LEMBAR PERSETUJUAN PENGUJI
+
+NIM                        : 1221010031
+Nama                       : Indah Fitriani
+Program Studi              : Sistem Informasi
+Fakultas                   : Teknologi Informasi dan Komunikasi
+Jenjang Studi              : Strata 1
+Judul                      : Perancangan Sistem Informasi Petty Cash
+                            di SMK Avicena Rajeg
+
+Disetujui setelah berhasil dipertahankan di hadapan Tim Penguji Ujian Komprehensif.
+
+Ketua Penguji ,            Tangerang, (Tanggal Sidang) Februari 2026
+                                                Anggota Penguji,
+
+Achmad Sidik, M.Kom.       Siti Maisaroh, S.S., M.Pd
+NUPTK. 7250757658130143    NUPTK. 865374864923011
+
+ *Tanda tangan wajib asli                             Page 18
+
+Revisi Juli 2025
+PEDOMAN PENYUSUNAN SKRIPSI
+
+Contoh Lembar Keaslian Skripsi:
+
+                     INSTITUT TEKNOLOGI DAN BISNIS
+                              BINA SARANA GLOBAL
+
+                  LEMBAR KEASLIAN SKRIPSI
+
+Saya yang bertandatangan di bawah ini:  : 1221010031
+                                        : Indah Fitriani
+                         NIM            : Sistem Informasi
+                         Nama           : Teknologi Informasi dan Komunikasi
+                         Program Studi  : Strata 1
+                         Fakultas
+                         Jenjang Studi
+
+         Menyatakan bahwa skripsi dan aplikasi ini merupakan karya tulis saya sendiri dan
+bukan merupakan tiruan, salinan atau duplikasi dari skripsi dan aplikasi yang telah
+dipergunakan untuk mendapatkan gelar akademik baik di lingkungan Institut Teknologi dan
+Bisnis Bina Sarana Global maupun di Perguruan Tinggi lain, serta belum pernah
+dipublikasikan.
+
+         Pernyataan ini dibuat dengan penuh kesadaran serta rasa tanggung jawab, dan saya
+bersedia menerima sanksi jika ternyata pernyataan di atas tidak benar.
+
+                                        Tangerang, (Tanggal Sidang) Februari 2026
+
+                                        Materai asli wajib           Materai 10.000,-
+                                        disertakan pada
+                                        saat pendaftaran    Indah Fitriani
+                                        sidang skripsi      NIM : 1221010031
+
+Revisi Juli 2025                                                                       Page 19
+PEDOMAN PENYUSUNAN SKRIPSI
+
+Contoh Penulisan Abstrak
+
+                            (Times New Roman, Bold, 14 pt)
+
+                                  ABSTRAK
+
+                                                  (Times New Roman, 12 pt)
+
+Digital library system dan library management system menjawab perkembangan kebutuhan
+masyarakat dalam hal pelayanan pada lembaga perpustakaan. Digital library system
+memberikan kontribusi pada pengembangan digital resource sehingga digital resource
+dapat diakses melalui internet tanpa mengenal waktu dan tempat. Library management
+system memberikan kontribusi pada perkembangan otomatisasi pengolahan data
+keanggotaan, sirkulasi dan cataloging. Peneliti mengembangkan digital library system dan
+library management system dengan mengintegrasikan arsitektur dua sistem tersebut.
+Integrasi arsitektur ditempuh dengan memasukkan komponen library management system
+ke dalam arsitektur digital library system. Penerapan teknologi web application diperlukan
+agar komponen tersebut dapat terintegrasi dengan komponen digital library system. Sistem
+yang dihasilkan dari pengembangan ini memiliki keunggulan pemanfaatan aplikasi
+peminjaman, keanggotaan dan cataloging yang sharable melalui internet, sehingga aplikasi
+itu dapat digunakan bersama-sama. Informasi katalog dapat disampaikan antar
+perpustakaan, tanpa meninggalkan fungsi digital library dalam pemanfaatan bersama digital
+resource yang bersumber dari upload masing-masing pustakawan.
+
+Kata Kunci: Digital Library System, Library Management System, Integrasi, Web
+Application.
+
+Pada halaman berikutnya, ditulis juga ABSTRACT dalam Bahasa Inggris dengan cetak
+miring (italics)
+
+Revisi Juli 2025                                            Page 20
+Contoh Penulisan Kata Pengantar
+                                              (Times New Roman, Bold, 14 pt)
+
+                                 KATA PENGANTAR
+
+                                                     (Times New Roman, 12 pt)
+
+     Puji syukur kehadirat Allah SWT karena berkat Rahmat dan Karunia-Nya penulis dapat
+menyelesaikan penyusunan skripsi ini. Salawat serta salam semoga senantiasa tercurah
+kepada Nabi Muhammad SAW, keluarganya, para sahabatnya, hingga umatnya sampai akhir
+zaman, amin.
+
+     Penulisan skripsi ini diajukan untuk memenuhi salah satu syarat kelulusan dalam
+jenjang perkuliahan Strata 1 (S1) Institut Teknologi dan Bisnis Bina Sarana Global.
+Penulisan skripsi ini tidak lepas dari hambatan dan kesulitan, namun berkat bimbingan,
+bantuan, nasihat dan saran serta kerja sama dari berbagai pihak, khususnya kedua orangtua
+dan kelurga penulis yang selalu mendukung baik dukungan moral dan material, memberikan
+motivasi hidup yang luar biasa untuk penulis serta mendoakan penulis, akhirnya penulis
+dapat menyelesaikan skripsi ini.
+
+     Selanjutnya dengan tulus hati penulis ingin mengucapkan terima kasih kepada semua
+pihak yang telah membantu penulis dalam penyusunan skripsi ini, diantaranya:
+1. Bapak Assoc. Prof. Dr. H. Dedi, M.Si. selaku Rektor Institut Teknologi dan Bisnis Bina
+
+    Sarana Global.
+2. Bapak Muchamad Iqbal, S.E., M.Kom. selaku Wakil Rektor Bidang Akademik.
+3. Bapak Muhammad Iqbal Hanafri, S.Pi., M.Kom selaku Wakil Rektor Bidang Non
+
+    Akademik.
+4. Bapak M. Ramaddan Julianti, M.T. selaku Dekan Fakultas Teknologi Informasi dan
+
+    Komunikasi
+5. Bapak Achmad Sidik, M.Kom. selaku Ketua Program Studi Sistem Informasi.
+6. Bapak Triono, M.Kom. selaku pembimbing utama yang selalu bijaksana memberikan
+
+    bimbingan, nasihat serta waktunya selama penelitian dan penulisan skripsi ini.
+7. Ibu Siti Maisaroh, S.S., M.Pd., selaku pembimbing pendamping yang telah mencurahkan
+
+    perhatian, bimbingan, do'a dan kepercayaan yang sangat berarti bagi penulis.
+8. Seluruh Civitas Akademik Institut Teknologi dan Bisnis Bina Sarana Global yang telah
+
+    banyak membantu penulis selama mengikuti perkuliahan dan penulisan skripsi ini.
+PEDOMAN PENYUSUNAN SKRIPSI
+
+9. Ibu drh. Reny S. yang telah mengizinkan penulis melakukan penelitian di Pet Shop dan
+    Praktik dokter miliknya terima kasih juga atas saran yang telah diberikan.
+
+10. Rekan-rekan yang telah membantu penulis dan telah meluangkan waktu untuk
+    mendukung penulis.
+
+11. Semua pihak yang tidak bisa disebutkan satu persatu yang telah banyak membantu
+    penulis dalam menyelesaikan skripsi ini.
+    Semoga Allah SWT memberikan balasan yang berlipat ganda kepada semuanya. Demi
+
+perbaikan selanjutnya, saran dan kritik yang membangun akan penulis terima dengan senang
+hati. Akhirnya hanya kepada Allah SWT penulis serahkan segalanya, mudah-mudahan
+skripsi ini dapat bermanfaat khususnya bagi penulis dan umumnya bagi kita semua.
+
+                                                             Tangerang, (Tanggal Sidang) Februari 2026
+                                                                    Penulis,
+
+                                                                    Indah Fitriani
+
+Revisi Juli 2025  Page 22
+PEDOMAN PENYUSUNAN SKRIPSI
+
+Contoh Penulisan Daftar Isi
+
+                             (Times New Roman, Bold, 14 pt)
+
+                                  DAFTAR ISI
+
+(Times New Roman, 12 pt)
+
+LEMBAR PENGESAHAN SKRIPSI
+LEMBAR PERSETUJUAN PEMBIMBING
+LEMBAR PERSETUJUAN PENGUJI
+LEMBAR KEASLIAN SKRIPSI
+ABSTRAK ................................................................................................................... i
+ABSTRACT ................................................................................................................ ii
+KATA PENGANTAR ................................................................................................ ii
+DAFTAR ISI ............................................................................................................... iv
+DAFTAR GAMBAR .................................................................................................. v
+DAFTAR TABEL ....................................................................................................... ix
+DAFTAR SIMBOL..................................................................................................... xi
+DAFTAR LAMPIRAN............................................................................................... xiii
+BAB I PENDAHULUAN
+
+         1.1. Latar Belakang ........................................................................................ 1
+        1.2. Identifikasi Masalah ................................................................................ 2
+        1.3. Rumusan Masalah ................................................................................... 2
+        1.4. Ruang Lingkup ........................................................................................ 2
+        1.5. Tujuan dan Manfaat ................................................................................ 3
+        1.5.1. Tujuan...................................................................................................... 4
+        1.5.2. Manfaat.................................................................................................... 4
+        1.6. Metode Penelitian.................................................................................... 5
+        1.6.1. Jenis Penelitian ........................................................................................ 6
+        1.6.2. Metode Pengumpulan Data ..................................................................... 6
+        1.6.3. Metode Pengembangan/Metode Analisis dan Rancangan ...................... 7
+         1.7. Sistematika Penulisan ............................................................................. 8
+BAB II LANDASAN TEORI
+        2.1. Teori-Teori Dasar/ Umum....................................................................... 9
+        2.2. Teori-Teori yang Berhubungan dengan Topik yang Dibahas ................. 25
+        2.3. Literature Review .................................................................................... 35
+
+Revisi Juli 2025                                             Page 23
+PEDOMAN PENYUSUNAN SKRIPSI
+
+BAB III ANALISIS SISTEM YANG BERJALAN
+        3.1. Gambaran Umum Objek yang Diteliti.................................................... 36
+        3.1.1. Sejarah singkat ........................................................................................ 36
+        3.1.2. Struktur Organisasi.................................................................................. 38
+        3.1.3. Wewenang dan Tanggung Jawab ............................................................ 44
+        3.2. Tata Laksana Sistem yang Berjalan ........................................................ 45
+        3.3. Masalah yang Dihadapi ........................................................................... 53
+        3.4. Alternatif Pemecahan Masalah................................................................ 54
+        3.5. User Requirement ................................................................................... 55
+        3.5.1. Elisitasi Tahap I ................................................................................... 56
+        3.5.2. Elisitasi Tahap II ................................................................................... 57
+        3.5.3. Elisitasi Tahap III.................................................................................. 58
+        3.5.4. Final Draft Elisitasi ............................................................................... 59
+
+BAB IV RANCANGAN SISTEM YANG DIUSULKAN
+        4.1. Usulan Prosedur yang baru ..................................................................... 61
+        4.2. Diagram Rancangan Sistem .................................................................... 65
+        4.3. Rancangan Basis Data ............................................................................ 69
+        4.4. Rancangan Prototype/Tampilan .............................................................. 74
+        4.5. Implementasi Sistem yang diusulkan ...................................................... 81
+
+BAB V PENUTUP
+        5.1. Simpulan.................................................................................................. 85
+        5.1.1. Simpulan terhadap rumusan masalah ...................................................... 85
+        5.1.2. Simpulan terhadap tujuan dan manfaat penelitian .................................. 86
+        5.1.3. Simpulan terhadap metode penelitian ..................................................... 87
+        5.2. Saran ........................................................................................................ 88
+
+DAFTAR PUSTAKA
+LAMPIRAN
+
+Revisi Juli 2025  Page 24
+PEDOMAN PENYUSUNAN SKRIPSI
+
+Contoh Penulisan Daftar Gambar
+                                              (Times New Roman, Bold, 14 pt)
+
+                                 DAFTAR GAMBAR
+
+(Times New Roman, 12 pt)
+
+Gambar 2.1. Elemen Sistem...................................................................................... 10
+Gambar 2.2. Arsitektur Sistem Android.................................................................... 11
+Gambar 2.3. Struktur Sistem Pakar.. ......................................................................... 12
+Gambar 2.4. Backward Chaining.............................................................................. 13
+Gambar 2.5. Dst
+
+Contoh Penulisan Daftar Tabel
+
+                                (Times New Roman, Bold, 14 pt)
+
+                                  DAFTAR TABEL
+
+(Times New Roman, 12 pt)
+
+Tabel 2.1. Multiplicity................................................................................................... 20
+Tabel 2.2. Tag XML Android.................................................................. 21
+Tabel 2.3. Perintah XML untuk mengatur widget.......................................... 22
+Tabel 2.4. Dst
+
+Contoh Penulisan Daftar Simbol
+
+                                (Times New Roman, Bold, 14 pt)
+
+                                 DAFTAR SIMBOL
+
+(Times New Roman, 12 pt)
+
+Simbol Use Case
+
+                          Simbol               Keterangan
+
+                                  Aktor: Mewakili peran orang,
+                                  sistem yang lain atau alat ketika
+                                  berkomunikasi dengan use case
+
+                                  Use Case: Abstraksi dari interaksi
+                                  antara sistem dan actor
+
+                                  Sumber: Nama (Tahun: Hal)
+
+*Print Terpisah                                                       Page 25
+
+Revisi Juli 2025
+PEDOMAN PENYUSUNAN SKRIPSI
+
+Contoh Penulisan Daftar Lampiran
+                                              (Times New Roman, Bold, 14 pt)
+
+                                DAFTAR LAMPIRAN
+
+(Times New Roman, 12 pt)
+
+Lampiran 1. Portofolio................................................................................................. 90
+Lampiran 2. Fotokopi Kartu Bimbingan Skripsi.......................................................... 91
+Lampiran 3. Plagiarism Cheker.................................................................................... 92
+Lampiran 4. Surat Keterangan Penelitian/Implementasi.............................................. 92
+Lampiran 5. Formulir-formulir dan Dokumen Sistem yang berjalan........................... 94
+Lampiran 6. Sertifikat LTCC........................................................................................ 95
+Lampiran 7. Sertifikat Seminar wajib........................................................................... 96
+Lampiran 8. Sertifikat TOEIC/TOEFL......................................................................... 97
+Lampiran 9. Sertifikat Keahilan.................................................................................... 98
+Lampiran 10. Daftar Riwayat Hidup............................................................................. 99
+
+Revisi Juli 2025  Page 26
+PEDOMAN PENYUSUNAN SKRIPSI
+
+ISI LAPORAN
+
+                            CONTOH ISI LAPORAN SKRIPSI
+
+                                        BAB I
+                                PENDAHULUAN
+
+1.1. Latar Belakang
+              Latar belakang dimulai dari hal-hal yang bersifat umum menuju hal yang
+
+       berhubungan dengan topik yang dibahas pada skripsi. Tuliskan juga alasan apa yang
+       melatarbelakangi Anda meneliti topik Anda.
+
+              Masalah yang ditemui secara umum, apa adanya, namun jangan membuat
+       simpulan karena ini akan dibahas lebih rinci di BAB III.
+
+1.2. Identifikasi Masalah
+                  Identifikasi masalah merupakan penjabaran masalah yang diidentifikasi oleh
+
+       penulis.
+
+1.3. Rumusan Masalah
+              Rumusan masalah merupakan pendetilan dari permasalahan yang diidentifikasi
+
+       dalam butir 1.1. Latar Belakang. Perumusan masalah dapat merupakan:
+       1. Kekurangan atau celah yang harus diperbaiki dalam sebuah
+
+           organisasi/lembaga/perusahaan
+       2. Usaha perbaikan (improvement) terhadap sistem yang ada untuk peningkatan
+
+           kinerja sebuah organisasi/lembaga/perusahaan
+
+1.4. Ruang Lingkup
+              Subbab ini berisi batasan-batasan sistem yang Anda bahas pada skripsi dan
+
+       asumsi-asumsi yang digunakan (jika ada). Pada sub ini dijelaskan seluruh lingkup dan
+       asumsi yang akan digunakan pada penulisan. Ruang lingkup adalah batasan masalah
+       yang akan dikerjakan dalam penulisan skripsi, sedangkan asumsi adalah hal-hal yang
+       sudah dianggap benar selama penelitian.
+
+Revisi Juli 2025                                        Page 27
+PEDOMAN PENYUSUNAN SKRIPSI
+
+1.5. Tujuan dan Manfaat
+1.5.1. Tujuan
+
+              Tujuan adalah poin-poin yang hendak dicapai. Tujuan penelitian harus
+       dinyatakan secara eksplisit, sejalan dan selaras dengan rumusan masalah penelitian.
+       Contoh: Tujuan penelitian ini adalah untuk menganalisis dan merancang ..."
+1.5.2. Manfaat
+
+              Manfaat adalah hal-hal yang terjadi apabila tujuan tercapai. Berikut adalah
+       contoh manfaat:
+       1. "Manfaat penelitian ini adalah diperolehnya informasi tentang..."
+       2. "Manfaat penelitian ini adalah terkumpulnya data penelitian ..."
+
+1.6. Metode Penelitian
+1.6.1. Jenis Penelitian (Opsional)
+1.6.2. Metode Pengumpulan Data
+
+       Metode Observasi
+       Metode Interview
+       Metode Research
+1.6.3. Metode Pengembangan/Metode Analisis dan Rancangan
+
+              Secara ringkas metodologi dapat diartikan sebagai cara, tahapan-tahapan
+       kegiatan yang akan dilakukan dalam memecahkan masalah yang akan diteliti. Dalam
+       kasus pembuatan skripsi, metode adalah cara yang digunakan untuk mencapai tujuan
+       yang dirumuskan.
+
+        Contoh untuk judul tentang sistem informasi
+
+            Metode yang digunakan dalam penulisan skripsi ini meliputi dua bagian pokok
+      yaitu Metode Analisis dan Metode Rancangan.
+
+       1. Metode Analisis
+          Analisis sistem dilakukan melalui empat tahapan yaitu (1) survei atas sistem yang
+          sedang berjalan, (2) Analisis terhadap temuan survei, (3) Identifikasi kebutuhan
+          informasi, dan (4) Identifikasi persyaratan sistem. Hasil analisis kemudian dibuat
+          laporannya untuk masukan dalam perancangan sistem yang diusulkan.
+
+Revisi Juli 2025  Page 28
+PEDOMAN PENYUSUNAN SKRIPSI
+
+       2. Metode Rancangan
+          Dalam skripsi ini metode perancangan yang digunakan adalah metode Perancangan
+          Berorientasi Objek, menggunakan UML (Unified Modelling Language). Minimal
+          4 diagram yang dibuat: usecase diagram, activity diagram, class diagram, dan
+          sequence diagram.
+
+              Subbab ini merupakan gambaran umum dari apa yang akan ditulis di BAB III.
+       Di sini setidaknya disebut tentang, misalnya, Metode untuk analisis data atau
+       permasalahan yang ada dari sistem yang berjalan.
+
+1.7. Sistematika Penulisan
+              Sistematika penulisan berisi keterangan masing-masing isi bab secara ringkas.
+
+       Gambaran umum tiap bab akan diterangkan pada subbab ini, dengan cara deskriptif,
+       bukan dalam bentuk datar.
+
+Revisi Juli 2025  Page 29
+PEDOMAN PENYUSUNAN SKRIPSI
+
+                                          BAB II
+                                 LANDASAN TEORI
+
+       Dalam bab ini Anda dapat menuliskan teori-teori yang berkaitan erat dengan topik
+bahasan skripsi yang sedang disusun yang diambil dari berbagai sumber literatur sebagai
+salah satu bentuk metode penelitian yang digunakan yaitu library research/studi pustaka.
+Teori-teori tersebut dapat dikategorikan ke dalam teori dasar/umum dan teori-teori khusus
+yang berhubungan langsung dengan topik bahasan.
+
+2.1. Teori-Teori Dasar/ Umum
+             Subbab ini berisikan definisi-definisi dari teori yang ada, misalnya pengertian
+
+      sistem, perancangan sistem, UML, web-based accounting system, Sistem Informasi
+      Akuntansi dan lain-lain.
+
+2.2. Teori-Teori yang Berhubungan dengan Topik yang Dibahas.
+             Subbab ini berisikan definisi-definisi dari teori yang ada hubungannya dengan
+
+       topik yang dibahas. Subbab ini juga harus memaparkan teori-teori yang sangat rinci,
+       dan dijadikan sebagai bahan acuan untuk penulisan bab selanjutnya (khususnya bab
+       tentang hasil analisis).
+
+2.3. Literature Review/Penelitian Sebelumnya
+             Literature review dilakukan oleh peneliti untuk mengetahui landasan awal dan
+
+       sebagai pendukung bagi kegiatan penelitian yang akan dilakukan oleh peneliti
+       sehingga dapat menghindari pengulangan hal yang sama dalam penelitian dan dapat
+       melakukan pengembangan ke tingkat yang lebih tinggi dalam rangka
+       menyempurnakan/melengkapi penelitian yang sudah ada sebelumnya. Literature
+       review dilakukan dengan mengambil sebanyak 5 (lima) artikel yang terdiri dari;
+       2 jurnal Internal (journal.global.ac.id), 2 jurnal Nasional terakreditasi dan 1
+       International.
+
+Revisi Juli 2025  Page 30
+PEDOMAN PENYUSUNAN SKRIPSI
+
+                                          BAB III
+                         ANALISIS SISTEM BERJALAN
+
+       (Dalam bab ini diuraikan secara garis besar sistem yang berjalan selama ini sesuai
+dengan pokok bahasan dari skripsi. Dari uraian sistem yang berjalan tersebut dapat
+disebutkan hal-hal yang menjadi masalah dan perlu diselesaikan dengan melakukan
+perancangan sistem).
+
+3.1. Gambaran Umum Objek yang Diteliti
+3.1.1. Sejarah Singkat
+
+            Sejarah singkat berisi sejarah singkat objek yang diteliti. Jika objek tersebut
+       merupakan perusahaan/lembaga, bagian ini meliputi kapan berdirinya, apa visi dan
+       misinya, bergerak di bidang apa, apa saja yang sudah tercapai, dll.
+
+3.1.2. Struktur Organisasi
+            Jika objek yang diteliti merupakan perusahaan/lembaga, gambarkan struktur
+
+      organisasi tempat objek penelitian dilakukan.
+
+3.1.3. Wewenang dan Tanggung Jawab
+            Jika objek yang diteliti merupakan perusahaan/lembaga, wewenang dan tanggung
+
+       jawab staf dan pekerja di objek tersebut.
+
+3.2. Tata Laksana Sistem yang Berjalan
+
+            Sistem yang berjalan dituangkan dalam bentuk diagram-diagram yang
+       disesuaikan dengan prinsip SSAD (Structured System Analysis and Design) atau
+       OOAD (Object Oriented Analysis and Design). Contoh diagram yang menggunakan
+       prinsip SSAD di antaranya Diagram Arus Data, Flowchart System, dll. Sedangkan
+       pada OOAD di antaranya dapat menggunakan Unified Modeling Language (UML)
+       yang dapat terdiri dari use case diagram, activity diagram) atau Business Process
+       Model Notation (BPMN).
+
+Revisi Juli 2025  Page 31
+PEDOMAN PENYUSUNAN SKRIPSI
+
+3.3. Masalah yang Dihadapi
+
+            Dalam subbab ini disampaikan masalah-masalah yang timbul dari sistem yang
+       berjalan dan solusi pemecahannya yang nantinya dituangkan ke dalam BAB IV.
+3.4. Alternatif Pemecahan Masalah (minimal 2)
+
+            Alternatif pemecahan masalah merupakan awal solusi awal dari si peneliti
+       memberikan alternatif pemecahan atau penyelesaian masalah yang dihadapi pada
+       objek yang diteliti.
+
+3.5. User Requirement (Elisitasi)
+3.5.1. Elisitasi Tahap I
+
+            Elisitasi Tahap 1 disusun berdasarkan hasil pengumpulan data dari lapangan yang
+       dilakukan dengan cara observasi dan wawancara penulis dengan stakeholder
+       mengenai seluruh rancangan sistem.
+
+                                      Tabel 3.3 Tabel Elisitasi Tahap 1
+
+Functional
+
+Analisis Kebutuhan
+
+No                                    Keterangan
+
+1 Menampilkan halaman home
+
+2 Menampilkan menu utama akses
+
+3 Menampilkan tambah karyawan
+
+4 Menampilkan data karyawan
+
+5 Menampilkan edit data karyawan
+
+6 Dst...
+
+Non Functional
+Saya ingin sistem dapat:
+
+  1 mudah digunakan oleh user
+
+2 menampilkan login dan logout
+
+3 menampilkan waktu
+
+4 memiliki tampilan yang menarik
+
+5 Dst...
+
+                            Penyusun              Stakeholder
+
+                   Indah Fitriani                 Rasino
+                  NIM:                            NIK:
+
+Revisi Juli 2025                                               Page 32
+PEDOMAN PENYUSUNAN SKRIPSI
+
+3.5.2. Elisitasi Tahap II
+
+            Elisitasi Tahap II dibentuk berdasarkan Elisitasi Tahap I yang kemudian
+       diklasifikasikan lagi dengan menggunakan metode MDI. Sesuai dengan ruang lingkup
+       penelitian yang telah dijelaskan pada bab sebelumnya, maka semua requirement di
+       atas diberi opsi I (Inessential) yang dapat terlihat.
+
+                            Tabel 3.4 Tabel Elisitasi Tahap II
+
+Functional
+Analisis Kebutuhan
+
+No                          Keterangan                          MD I
+                                                                
+1 Menampilkan halaman home                                      
+                                                                
+2 Menampilkan menu utama akses                                  
+                                                                
+3 Menampilkan tambah karyawan
+                                                                
+4 Menampilkan data karyawan                                     
+                                                                
+5 Menampilkan edit data karyawan                                
+
+6 Dst..
+
+Non Functional
+
+Saya ingin sistem dapat:
+
+1 Mudah digunakan oleh user
+
+2 Menampilkan login dan logout
+
+3 Menampilkan waktu
+
+4 Memiliki tampilan yang menarik
+
+5 Dst..
+
+   Keterangan: M = Mandatory (yang diinginkan)
+                     D = Desirable (diperlukan)
+                     I = Inessential (yang tidak mutlak diinginkan)
+
+3.5.3. Elisitasi Tahap III
+
+            Berdasarkan Elisitasi Tahap II di atas, dibentuklah Elisitasi Tahap III yang
+       diklasifikasikan kembali dengan menggunakan metode TOE dengan opsi HML. Bila
+       terdapat requirements yang opsinya High (H) harus dieliminasi.
+
+Revisi Juli 2025                                                Page 33
+PEDOMAN PENYUSUNAN SKRIPSI
+
+                            Tabel 3.5 Tabel Elisitasi Tahap III
+
+Functional
+Analisis Kebutuhan
+
+No                Keterangan        T           O                  E
+                              LM H                                 MH
+                                              LMH L
+                                   
+1 Menampilkan halaman home                                       
+
+2   Menampilkan menu utama                                         
+    akses
+
+3   Menampilkan tambah                                             
+    karyawan
+
+4 Menampilkan data karyawan                                      
+
+5   Menampilkan edit data                                        
+    karyawan
+
+6 Dst..
+
+Non Functional
+
+Saya ingin sistem dapat:
+
+1 Mudah digunakan oleh user                                      
+
+2   Menampilkan login dan                                        
+    logout
+
+3 Menampilkan waktu                                              
+
+4   Memiliki tampilan yang                                       
+    menarik
+
+5 Dst...
+
+Keterangan:
+
+   T (Tehchnical)   : Tingkat kesulitan dalam pengembangan sistem yang akan
+   O (Operational)     dibuat
+   E (Economical)
+   H (High)         : Tingkat kesulitan dalam penggunaan sistem oleh user-nya
+
+   M (Middle)       : Tingkat biaya yang dibutuhkan dalam pengembangan
+                       system
+
+                    : Sulit untuk dikerjakan, karena teknik pembuatan dan
+                       pemakaiannya sulit serta biayanya mahal. Sehingga
+                       requirement tersebut harus dieliminasi.
+
+                    : Mampu untuk dikerjakan
+
+   L (Low)          : Mudah untuk dikerjakan
+
+Revisi Juli 2025                                                     Page 34
+PEDOMAN PENYUSUNAN SKRIPSI
+
+3.5.4. Final Draft Elisitasi
+
+           Final draft elisitasi merupakan bentuk akhir dari tahap-tahap elisitasi yang dapat
+      dijadikan acuan dan dasar untuk membangun sistem Berdasarkan elisitasi tahap III
+      diatas, dihasilkan requirement final draft yang diharapkan dapat mempermudah
+      penulis dalam membuat suatu sistem pengajuan lembur karyawan berbasis web.
+
+                         Tabel 3.6 Tabel Final Draft Elisitasi
+
+Functional
+Analisis Kebutuhan
+
+No                          Keterangan
+
+1 Menampilkan halaman home
+2 Menampilkan menu utama akses
+3 Menampilkan tambah karyawan
+4 Menampilkan data karyawan
+5 Menampilkan edit data karyawan
+6 Dst.
+Non Functional
+Saya ingin sistem dapat:
+1 Mudah digunakan oleh user
+2 Menampilkan login dan logout
+3 Menampilkan waktu
+4 Memiliki tampilan yang menarik
+5 Dst.
+
+                            Tangerang, ....................
+                                       Penyusun
+
+    Stakeholder             Nama Mahasiswa
+                                   NIM
+
+                               Mengetahui,
+                                              Pembimbing Utama
+
+                 Rasino           Achmad Sidik, M.Kom
+Revisi Juli 2025                                                    Page 35
+PEDOMAN PENYUSUNAN SKRIPSI
+
+                                          BAB IV
+                 RANCANGAN SISTEM YANG DIUSULKAN
+
+4.1. Usulan Prosedur yang baru
+            Bagian ini menjelaskan usulan prosedur yang baru berdasarkan hasil analisis
+
+       permasalahan di BAB III.
+
+4.2. Diagram Rancangan Sistem
+            Diagram Rancangan Sistem dapat dibuat dengan menggunakan prinsip yang
+
+       digunakan pada tahap analisis sistem (BAB III), yaitu Structured System Analysis and
+       Design (SSAD) atau Object Oriented Analysis and Design (OOAD). Contoh diagram
+       yang menggunakan prinsip SSAD di antaranya Diagram Arus Data. Flowchart System,
+       Bagan Terstruktur, Pseudecode, dll.; Sedangkan yang menggunakan OOAD di
+       antaranya adalah Unified Modeling Language (UML) yang terdiri dari minimal 4
+       macam diagram Use Case Diagram, Activity Diagram, Sequence Diagram dan Class
+       Diagram.
+
+4.3. Rancangan Basis Data
+            Pada bagian ini dijelaskan seluruh basis data yang akan dirancang sesuai dengan
+
+       prinsip rancangan yang digunakan, SSAD atau OOAD. Pada SSAD di antaranya dapat
+       digambarkan dengan Entity Relationship Diagram, Kamus Data, dll. Sedangkan
+       OOAD di antaranya dapat digambarkan menggunakan Class Diagram. Selain itu pada
+       sub bab ini pula dijelaskan Spesifikasi Basis Data, Normalisasi data.
+
+4.4. Rancangan Prototype/Tampilan
+            Subbab ini berisi rancangan prototype dan atau tampilan yang dibuat.
+
+4.5. Implementasi Sistem yang Diusulkan
+            Subbab ini berisi Spesifikasi Sistem yang diusulkan, mencakup spesifikasi
+
+       hardware, software, brainware serta schedulle implementasi.
+
+Revisi Juli 2025  Page 36
+PEDOMAN PENYUSUNAN SKRIPSI
+
+                              BAB V
+                            PENUTUP
+
+5.1. Simpulan
+5.1.1. Simpulan terhadap Rumusan Masalah
+
+              Isi Simpulan Terhadap Rumusan Masalah ini menjawab pertanyaan-pertanyaan
+       dalam Rumusan Masalah pada BAB I.
+5.1.2. Simpulan terhadap Tujuan dan Manfaat Penelitian
+       1. Simpulan terhadap tujuan penelitian
+       2. Simpulan terhadap manfaat penelitian
+5.1.3. Simpulan terhadap Metode Penelitian
+
+5.2. Saran
+            Sub bab ini berisi garis besar saran-saran yang merupakan tindakan yang perlu
+
+       diambil untuk tindak lanjut yang lebih baik dari hasil pemecahan masalah yang sudah
+       dituangkan dalam perancangan sistem informasi/hasil penelitian.
+
+Revisi Juli 2025                     Page 37
+PEDOMAN PENYUSUNAN SKRIPSI
+
+Daftar Pustaka
+            Daftar Pustaka berisi buku-buku, majalah, laman web, dan sumber lainnya yang
+
+       dipakai dalam pembahasan skripsi. Daftar Pustaka harus disusun menurut abjad
+       pengarang. Tahun penerbitan sumber referensi tidak lebih dari 5 tahun sebelum tahun
+       penyusunan skrispi. Jika skripsi disusun pada tahun 2021, maka sumber referensi yang
+       diperbolehkan adalah yang terbit pada tahun 2016, 2017, 2018, 2019, 2020 dan 2021.
+       Isi Daftar Pustaka ditulis dalam hanging paragraph (0,5"), dengan 1,5 spasi dengan
+       jarak after 12 pt.
+       Contoh:
+
+                                    DAFTAR PUSTAKA
+
+Beauvoir, Simonede. When Things of the Spirit Come First Trans. Patrick O'Brien.
+         NewYork: Pantheon, 1982.
+
+Belton, Padraig & Matthew Wall. 2018, "More than 600 apps had access to my iPhone data",
+         www.bbc.com, (diakses pada 3 Mei 2018).
+
+Chancellor, John, and Walter R. Mears. The New Business. New York: Herper & Row, 1983.
+
+Krosnow, Erwin C,, Lawrence D. Longley, and Herbert A. Terry. The Politics of Broadcast
+         Regulation. New York: St. Matin's Press, 1982.
+
+Liu, J.W.H. "A compact row storage scheme for cholesky factors using elimination trees."
+         ACM Trans on Math Software, 12 (1986), 127-148.
+
+Mitchell, A.R. & Graffiths, D.F., Metode Beda Hingga untuk Persamaan Differensial
+         Parsial Terjemahan: eeT. Basaruddin. Jakarta: Pusat Antar Universitas Ilmu
+         Komputer Universitas Indonesia, 1985.
+
+Morton K. W., 1968. "Initial-value Problems by Finite Difference and other Methods.
+         "Studies in The State of the art in Numerical Analisys Ed. D. Jacobs. Oxford:
+         Academic Press, 1980.
+
+Revisi Juli 2025  Page 38
+PEDOMAN PENYUSUNAN SKRIPSI
+
+Pusat Pembinaan dan Pengembangan Bahasa, Pedoman Umum Ejaan Bahasa Indonesia
+         yang Disempurnakan, Jakarta: P.N. Balai Pustaka, 1979.
+
+Sukardjo, Atika. "Pengaruh Lingkungan Keluarga Pada Perkembangan Anak. "Studi Dalam:
+         Perkembangan Anak di Indonesia Jakarta : Balai Cipta, 1993.
+
+Tim Penelaah Bidang Pengetahuan Alam. Tinjauan tentang perairan Indonesia bagian
+         Timur untuk mendasari pemilihan lokasi stasiun penelitian laut, Jakarta: Lembaga
+         Ilmu Pengetahuan Indonesia, 1985.
+
+Vetterling, W.T. Teukolsky, S.A., Press, W.H. and Flannery, B.P. Numerical Recipes
+         (Pascal) Revised Edition. Cambridge: Cambridge University Press, 1989.
+
+Revisi Juli 2025  Page 39
+PEDOMAN PENYUSUNAN SKRIPSI
+
+Kesalahan-Kesalahan yang Umum dan Sering Terjadi
+
+Jika penulis ragu mengenai suatu kosakata dan ejaannya, penulis dapat merujuk
+
+kepada Kamus Besar Bahasa Indonesia, baik versi cetak maupun versi online-nya yang dapat
+
+diakses di www.kbbi.web.id. Beberapa kesalahan mengenai kosakata dan ejaan yang sering
+
+terjadi dalam penulisan skripsi antara lain:
+
+1. Penulisan awalan di- dan kata depan di. Kata DI menjadi satu apabila merujuk kepada
+
+kalimat PASIF, dan dipisahkan apabila merujuk kepada keterangan TEMPAT.
+
+Contoh salah:
+
+Teknik seperti ini di temukan oleh Edison.
+
+Mereka menjalankan bisnis ini dirumah.
+
+Contoh benar:
+
+Teknik seperti ini ditemukan oleh Edison.
+
+Mereka menjalankan bisnis ini di rumah.
+
+2. Penulisan tanda tanya, tanda hubung (pada kata ulang), tanda titik, tanda koma, tanda titik
+
+dua salah jika didahului spasi.
+
+Contoh salah:
+
+Bagaimana sistem yang selama ini berjalan ?
+
+Perusahaan ini membuat kulkas , TV dan mesin cuci .
+
+Orang ­ orang semakin menyadari pentingnya pendidikan.
+
+Contoh benar:
+
+Bagaimana sistem yang selama ini berjalan?
+
+Perusahaan ini membuat kulkas, TV dan mesin cuci.
+
+Orang-orang semakin menyadari pentingnya pendidikan.
+
+3. Kalimat yang tidak memiliki subjek
+
+Contoh salah:
+
+Pada bab ini menjelaskan sistem yang berjalan.
+
+K                    P                 O            (salah karena tidak memiliki subjek)
+
+Contoh benar:
+
+Pada bab ini dijelaskan sistem yang berjalan.
+
+K                 P              S
+
+Sistem yang berjalan dijelaskan pada bab ini.
+
+   S                        P                 K
+
+Pada bab ini penulis menjelaskan sistem yang berjalan.
+
+K                 S         P                    O
+
+Revisi Juli 2025                                                         Page 40
+PEDOMAN PENYUSUNAN SKRIPSI
+
+Bab ini menjelaskan sistem yang berjalan.
+
+S                 P                 O
+
+4. Ketidaksesuaian antara subjek dan predikat
+
+Contoh salah:
+
+Sistem yang berjalan ini terdapat kelemahan.
+
+Sistem yang berjalan ini ada kelemahan.
+
+Contoh benar:
+
+Sistem yang berjalan ini memiliki kelemahan.
+
+Di dalam sistem yang berjalan ini terdapat kelemahan.
+
+Di dalam sistem yang berjalan ini ada kelemahan.
+
+Terdapat kelemahan di dalam sistem yang berjalan ini.
+
+Ada kelemahan di dalam sistem yang berjalan ini.
+
+5. Ketidakparalelan
+
+Contoh salah:
+
+Kasir merekap transaksi penjualan dan dilaporkan kepada manajer.
+
+(Kalimat ini mengandung makna: Kasir merekap transaksi penjualan dan kasir
+
+dilaporkan kepada manajer)
+
+Contoh benar:
+
+Kasir merekap transaksi penjualan dan melaporkannya kepada manajer.
+
+6. Ketidakparalelan pada elisitasi
+
+Contoh salah:
+
+Saya ingin sistem yang dapat:
+
+1. sistem dapat menampilkan menu search.
+
+2. tampilan sistem menarik.
+
+Contoh benar:
+
+Saya ingin sistem yang dapat:
+
+1. menampilkan menu search.
+
+2. memiliki tampilan yang menarik.
+
+7. Penggunaan kata yang mubazir
+
+Contoh salah:
+
+Menurut Suparno (2020:42) menyatakan bahwa .....
+
+Contoh benar:
+
+Menurut Suparno (2020:42), ....
+
+Revisi Juli 2025                                                     Page 41
+PEDOMAN PENYUSUNAN SKRIPSI
+
+       Suparno (2020:42) menyatakan bahwa ....
+8. Kata-kata sambung yang tidak boleh terletak di awal kalimat: karena, sehingga, hingga,
+
+   tetapi, yang, yaitu, dan, sedangkan
+   Contoh salah:
+
+       Karena bisa membuat anak-anak Pak Kebun gembira
+       Sehingga pinangannya kutolak.
+       Tetapi untuk menghilangkan semua itu, Pak Kebun harus memotong dahan-dahanku.
+       Dan buahnya kecil serta masam.
+   Contoh kata sambung yang boleh terletak di awal kalimat dan diikuti tanda koma:
+   agaknya, akan tetapi, akhirnya, akibatnya, artinya, biarpun begitu, biarpun demikian,
+   berkaitan dengan hal itu, dalam hal ini, dalam hubungan ini, dalam konteks ini, dengan
+   kata lain, di samping itu, si satu pihak, di pihak lain, jadi, jika demikian, kalau begitu,
+   kalau tidak salah, kecuali itu, lagi pula, meskipun begitu, meskipun demikian, oleh karena
+   itu, oleh sebab itu, pada dasarnya, pada hakikatnya, pada prinsipnya, sebagai simpulan,
+   sebaiknya, sebaliknya, sebetulnya, sebelumnya, sebenarnya, sehubungan dengan itu,
+   selain itu, selanjutnya, sementara itu, sesudah itu, setelah itu, sesungguhnya, sungguhpun
+   begitu, sungguhpun demikian, tambahan lagi, tambahan pula, untuk itu, walaupun
+   begitu.
+
+Revisi Juli 2025  Page 42
+PEDOMAN PENYUSUNAN SKRIPSI
+
+                                          BAB V
+           TINDAKAN UNTUK MENGIKUTI SIDANG SKRIPSI
+
+5.1. Berkas yang dikumpulkan untuk mengikuti sidang
+            Sebelum maju sidang, setiap peserta sidang mengumpulkan Laporan untuk
+
+       SKRIPSI dalam bentuk soft cover sebanyak 3 rangkap untuk Ketua Penguji, Anggota
+       Penguji dan Peserta Sidang, dengan urutan sebagai berikut:
+       1. Validasi plagiarism checker yang ditandatangani dosen pembimbing pendamping
+
+            (bab I - V max. 20%)
+       2. Cover Luar
+       3. Judul Dalam
+       4. Halaman Persetujuan dari Pembimbing
+       5. Halaman Keaslian Skripsi
+       6. Halaman Abstrak
+       7. Halaman Abstract
+       8. Kata Pengantar
+       9. Daftar Tabel (Jika ada)
+       10. Daftar Gambar (Jika ada)
+       11. Daftar Lampiran
+       12. Daftar Isi
+       13. Isi Laporan (5 BAB)
+       14. Daftar Pustaka
+       15. Daftar Riwayat Hidup (wajib)
+       16. Halaman Lampiran-Lampiran
+       17. Fotokopi Kartu Bimbingan yang telah disetujui oleh pembimbing (wajib)
+       18. Surat Keterangan Penelitian (wajib)
+       19. Formulir-formulir dan Dokumen Sistem yang berjalan (wajib, jika ada)
+       20. Surat Keterangan Implementasi dari Stakeholder (wajib)
+       21. Fotokopi Surat Survei (sesuai judul)
+       22. Sertifikat Seminar-Seminar (wajib)
+
+Revisi Juli 2025  Page 43
+PEDOMAN PENYUSUNAN SKRIPSI
+
+Catatan:
+1. Peserta sidang wajib membuat portofolio skripsi dengan format sesuai contoh
+
+     layout portofolio terlampir.
+2. Peserta sidang harus membuat bahan presentasi/program dan memastikan bahwa
+
+     materi presentasi/program yang akan ditampilkan adalah benar dan dapat
+     dipresentasikan dengan baik. Tidak dapat dibukanya file presentasi/program akan
+     menjadi bahan pertimbangan tersendiri dari dewan penguji dalam memberikan
+     nilai.
+     Materi presentasi minimal terdiri dari atau memuat hal-hal sebagai berikut:
+     a. Judul, Kerangka pembahasan, Pendahuluan (latar belakang, rumusan masalah,
+
+        ruang lingkup, tujuan penelitian, metode penelitian), Hasil penelitian (system
+        yang berjalan, analisis, rancangan/solusi yang diusulkan,
+        pembahasan/implementasi (tampilan dan penjelasan solusi), Penutup
+        (simpulan, daftar pustaka), Ucapan terima kasih.
+     b. Surat tugas melakukan penelitian (ditempatkan pada halaman depan
+        presentasi)
+     c. Satu slide yang berisi penjelasan tentang dampak dilakukannya penelitian
+        (ditempatkan pada halaman depan presentasi)
+     d. Satu slide yang berisi tentang apa yang dihasilkan setelah melakukan penelitian
+        (ditempatkan pada halaman depan presentasi)
+     e. Satu slide yang berisi tentang pelaksanaan ke depan setelah dilakukannya
+        penelitian (ditempatkan pada halaman terakhir presentasi).
+     f. Khusus konsentrasi CDM, slide presentasi tidak boleh menggunakan power
+        point, minimal flash.
+3. Tata Tertib dalam sidang
+     Tata tertib dalam berpakaian
+     a. Mengenakan setelan jas dengan kemeja putih, dasi dan sepatu pantofel (untuk
+         pria).
+     b. Mengenakan setelan blazer dengan rok dibawah lutut, kemeja putih dan sepatu
+         pantofel dengan tinggi hak 3 cm (untuk wanita).
+     Tata tertib kehadiran
+     a. Peserta diwajibkan hadir pukul 07.00 WIB.
+     b. Peserta sidang tidak diperbolehkan pulang dan diwajibkan menunggu hingga
+         pengumuman kelulusan.
+
+Revisi Juli 2025            Page 44
+PEDOMAN PENYUSUNAN SKRIPSI
+
+c. Mempersiapkan perangkat yang akan dipergunakan dalam sidang, 5 menit
+    sebelum sidang (wajib membawa laptop sendiri).
+
+Contoh Layout Portofolio Sistem (dibuat full english)
+
+                            INSTITUT TEKNOLOGI DAN BISNIS
+
+                             BINA SARANA GLOBAL
+
+                     PERANCANGAN SISTEM INFORMASI KEPEGAWAIAN PADA SMK AVICENA RAJEG
+
+INTRODUCTION                                                                     METHODOLOGY
+
+The need of information today more increase with the development of              1. Method of observation (observation), is a way of collecting datas
+technology, likewise the need about employment information at SMK                       directly to the field through observation of the object of study of a
+AvicenaRajeg. Nowadays, the processing of data's employment in SMK                      number of the individuals concerned.
+Avicena Rajeg already done computerized use Microsoft Office Excel
+program. SMK Avicena Rajeg is one of growing vocational high school. The         2. Interviews (interviews), conducted through a debriefing process with
+attendance system that occurs at SMK Avicena Rajeg is still using manual                one or several speakers at a place or location where the object of
+system. Employees must fill out attendance in the attendance book. To solve             research is done.
+this, a system that could make easy the employment administrative process
+at SMK Avicena Rajeg is needed. In this script, the researcher used              3. Literature method (library research), is used to get information from
+descriptive as the research methodology, it used to get description and                 some of the existing literature and through the resources of the library
+explanation about the situation of research object based on the fact. While             related to good governance documents, summarizes the data as a
+for the data collection method, the researcher used interview, observation              reference and cite the author.
+and literature. In developing system the researcher used Prototyping
+(prototype). Prototype application of employment information system              RESULT
+describe used UML (Unified Modelling Language) Implementation and plan
+of program used PHP and MySQL. The conclution of this prototype
+application is could make easy the employees in getting information about
+employment data of SMK Avicena Rajeg.
+
+OBJECTIVE
+
+1. To determine the personnel information system that is running on
+       vocational Avicena Rajeg.
+
+2. Designing a personnel information system to help facilitate the
+       processing of employee data on vocational Avicena Rajeg.
+
+3. Can know the personnel information system that is running on
+       vocational Avicena Rajeg.
+
+4. With a personnel information system design is expected to facilitate
+       the processing of employee data, make it easier to create reports
+       kepegawaiaan information system so as to produce information that
+       is accurate, timely and relevant
+
+SCOPE
+
+1. This study is limited only on vocational Avicena Rajeg
+2. The system is made to be internal, that is only accessible by employees
+
+       and personnel department (staff TU).
+3. Personnel information system created to handle personnel information
+
+       needed by all employees regarding employee data, job title, education
+       history, the data submission employee leave and attendance data.
+4. CMS employee database processing Avicena Rajeg.
+
+ CONCLUSION                                                                      NIM   : 1221010031
+
+ System of personnel administration in vocational Avicena                Foto,   Name  : Indah Fitriani
+ Rajeg running is still not effective because it is still done           pakai
+ manually, such as the attendance.                                    almamater  Study Program : Information System
+ This application was designed with the method of
+ development of a prototype model system with application                                                          Page 45
+
+Revisi Juli 2025 design and process flow systems using UML diagrams.             Faculty of Information Communication &
+                                                                                                    Technology
+ Implementation and program design using the PHP
+ programming language and MySQL database
+PEDOMAN PENYUSUNAN SKRIPSI
+
+                                          BAB VI
+   TINDAKAN SETELAH DINYATAKAN LULUS DALAM SIDANG
+
+5.1. Melakukan Perbaikan Laporan Skripsi
+           Setelah dinyatakan lulus dalam sidang, mahasiswa diharuskan melakukan
+
+      perbaikan Laporan berdasarkan catatan perbaikan Dewan Penguji.
+
+5.2. Pengumpulan Berkas
+           Dalam tempo 14 (empat belas) hari setelah dinyatakan lulus, mahasiswa harus
+
+      mengumpulkan berkas-berkas yang ditentukan. Jika pengumpulan lewat dari jangka
+      waktu tersebut, maka hasil sidang dibatalkan dan peserta diwajibkan untuk sidang
+      ulang. Adapun berkas yang dikumpulkan oleh setiap peserta sidang yang telah lulus
+      antara lain:
+       1. Cover Luar dalam bentuk Hard Cover:
+
+            Warna Hard Cover: Oranye untuk prodi SI dan biru tua untuk prodi TI
+       2. Judul dalam
+       3. Lembar Pengesahan (Dekan, Kaprodi, dan Rektor)*
+       4. Lembar Persetujuan Pembimbing
+       5. Lembar Persetujuan Dewan Penguji
+       6. Lembar Keaslian Skripsi (wajib menggunakan materai 10.000)
+       7. Halaman Abstrak
+       8. Halaman Abstract
+       9. Kata Pengantar
+       10. Daftar Tabel (jika ada)
+       11. Daftar Gambar (jika ada)
+       12. Daftar Lampiran
+       13. Daftar Isi
+       14. Isi Laporan (5 BAB yang sudah direvisi)
+       15. Daftar Pustaka
+       16. Daftar Riwayat Hidup
+       17. Halaman Lampiran-lampiran
+       18. Fotocopy Kartu Bimbingan yang telah disetujui pembimbingan
+       19. Fotocopy Surat Keterangan Penelitian
+
+  *penandatanganan akan dikolektif oleh Fakultas
+
+Revisi Juli 2025  Page 46
+PEDOMAN PENYUSUNAN SKRIPSI
+
+5.3. Persyaratan
+       1. Berkas Laporan lengkap tersusun rapi dan sistematis baik salinan asli copy-nya
+       2. 1 flashdisk per kelas (NIM, Nama dan Judul penelitian) yang berisi laporan yang
+           telah direvisi dan program implementasinya dengan ketentuan sebagai berikut:
+           a. Folder 1 berisi:
+                1) File Cover
+                2) File Lembar Pengesahan
+                3) File Lembar Persetujuan Pembimbing (berupa hasil scan dari versi cetak)
+                4) File Lembar Persetujuan Penguji (berupa hasil scan dari versi cetak)
+                5) File Abstraksi
+                6) File Abstract
+                7) File Pernyataan Keaslian (berupa hasil scan dari versi cetak)
+                8) File Kata Pengantar
+                9) File Daftar Tabel
+                10) File Daftar Gambar
+                11) File Daftar Simbol
+
+           b. Folder 2 berisi:
+                1) File Daftar Isi
+                2) File Bab I
+                3) File Bab II
+                4) File Bab III
+                5) File Bab IV
+                6) File Bab V
+                7) File Lampiran
+
+           c. Folder 3 berisi:
+                File Slide Presentasi, File Portofolio dan Jurnal (setelah di Acc LPPM)
+
+           d. Folder 4 berisi:
+                File Program (source code)
+
+       3. Khusus untuk mahasiswa/i konsentrasi CDM wajib mengumpulkan 2 CD (CD-
+           R/DVD-R) dibuat packaging sebagus mungkin yang hanya berisi aplikasi.
+
+Revisi Juli 2025  Page 47
+PEDOMAN PENYUSUNAN SKRIPSI
+
+5.4. Pengumpulan Jurnal
+           Mahasiswa/i wajib mengumpulkan jurnal setelah dinyatakan lulus sidang. Format
+
+       penulisan jurnal dapat dilihat di pedoman jurnal.
+
+5.5. Pas Photo Ijazah
+           Ketentuan pas photo adalah sebagai berikut:
+
+       1. Mengenakan kemeja putih dan jas berwarna hitam serta dasi (untuk pria), kemeja
+          putih dan blazer (untuk wanita)
+
+       2. Rambut disisir rapi
+       3. Latar belakang berwarna merah
+       4. Menghadap ke depan
+       5. Tidak mengenakan kaca mata
+
+5.6. Tindakan Dalam Memperoleh Surat Keterangan Kelulusan
+             Surat Keterangan Lulusan (SKL) diperoleh 1 (satu) bulan setelah revisi skripsi
+
+      diterima.
+
+Revisi Juli 2025  Page 48
+PEDOMAN PENYUSUNAN SKRIPSI
+
+                                         BAB VII
+ TINDAKAN JIKA DINYATAKAN TIDAK LULUS DALAM SIDANG
+
+1. Mendaftarkan diri untuk mengikuti sidang perbaikan pada semester berjalan (jika ada)
+   dengan membayar biaya sidang perbaikan dan mengikuti prosedur.
+
+2. Mendaftarkan diri untuk mengambil ulang mata kuliah Skripsi untuk semester berikutnya
+   (jika melewati semester yang telah ditentukan).
+
+3. Melakukan bimbingan sesuai dengan prosedur
+4. Melakukan bimbingan perbaikan sesuai dengan catatan Dewan Penguji kepada
+
+   pembimbing.
+
+Revisi Juli 2025  Page 49
+PEDOMAN PENYUSUNAN SKRIPSI
+
+                                         BAB VIII
+                            PENJELASAN PENILAIAN
+
+11.1. PENILAIAN PEMBIMBING
+           Penilaian Pembimbing diberikan oleh Pembimbing utama dan pendamping yang
+
+      diberikan selama proses bimbingan, bagi mahasiswa/i yang akan mendaftar sidang
+      (setelah disetujui oleh pembimbing) wajib meminta nilai pembimbing dan diserahkan
+      ke sekretariat pelaksana sidang. Apabila mahasiswa tidak mendapatkan nilai dari dosen
+      pembimbing maka akan diberikan nilai grade C. Berikut formulir penilaian Dosen
+      Pembimbing:
+
+Revisi Juli 2025  Page 50
+PEDOMAN PENYUSUNAN SKRIPSI
+
+                                                      Kode Form: FORM/PRODI/05
+
+           INSTITUT TEKNOLOGI & BISNIS BINA SARANA GLOBAL
+
+          Jl. Aria Santika No. 43A Margasari, Karawaci, Kota Tangerang, Banten, Indonesia, 15113
+             Telp. 021-5522727 Email: kampus@global.ac.id Website: www.global.ac.id
+
+                  FORMULIR PENILAIAN DOSEN PEMBIMBING
+
+Nama Dosen :
+
+NIM               :
+
+Nama Mahasiswa :
+
+Fakultas          :
+
+Judul             :
+
+Skor realisasi diisi angka (tidak melebihi skor Maksimal)
+
+No                          Komponen Penilaian                           Skor
+                                                             Maksimal Realisasi
+1 Melaksanakan pertemuan dengan Stakeholder
+                                                                 15
+2 Melakukan Final Presentasi di hadapan pembimbing               15
+
+3         Melaksanakan bimbingan secara aktif dengan setiap      20
+          pembimbing (9x setiap pembimbing)
+                                                                 35
+4 Membuat Jurnal Ilmiah yang siap terbit
+                                                                 15
+5         Program/hasil penelitian diimplementasikan
+          (melalui surat penyataan dari stakeholder)             100
+
+                            Total Nilai 1
+
+Agar dapat diberikan tanda (X) pada kolom grade
+
+No                Komponen Penilaian  Bobot     A          Grade                                  E  Nilai
+                                      Nilai           BCD
+
+1 Penguasaan Sistem                        7
+
+2 Penguasaan Teori                         4
+
+3 Keaktifan                                4
+
+4 Kemampuan Analisis                       4
+
+5 Kemampuan Rancangan                      6
+
+6         Kemampuan                        5
+          Implementasi
+
+                                      Total Nilai 2
+
+                            TOTAL NILAI PEMBIMBING
+
+Persetujuan:                                                 Pembimbing,
+
+Revisi Juli 2025                                      ________________________
+
+                                                                                  Page 51
+PEDOMAN PENYUSUNAN SKRIPSI
+
+11.2. PENILAIAN PENGUJI
+           Penilaian Penguji diberikan oleh Ketua Penguji dan Anggota Penguji yang
+
+       diberikan selama Proses Sidang Ujian, berikut formulir penilaian dosen Penguji:
+
+Revisi Juli 2025  Page 52
+PEDOMAN PENYUSUNAN SKRIPSI
+
+                                                   Kode Form: FORM/PRODI/06
+
+           INSTITUT TEKNOLOGI & BISNIS BINA SARANA GLOBAL
+
+       Jl. Aria Santika No. 43A Margasari, Karawaci, Kota Tangerang, Banten, Indonesia, 15113
+          Telp. 021-5522727 Email: kampus@global.ac.id Website: www.global.ac.id
+
+FORMULIR PENILAIAN KETUA PENGUJI DAN ANGGOTA PENGUJI
+
+Nama Dosen :
+
+NIM               :
+
+Nama Mahasiswa:
+
+Fakultas          :
+
+Judul             :
+
+Skor realisasi diisi angka (tidak melebihi skor Maksimal)
+
+No                          Komponen Penilaian                          Skor
+                                                            Maksimal Realisasi
+1         Tersedia Deskripsi hasil penelitian dalam bentuk
+          Portofolio Sistem                                     25
+
+2 Menghasilkan artikel yang siap terbit pada jurnal             15
+
+3         Dokumentasi Skripsi dan Video presentasi dalam        10
+          CD
+                                                                40
+4 Terdapat 4 piagam/sertifikat/workshop IT                      10
+                                                                100
+5 Terdapat sertifikat Seminar Internasional
+
+                            Total Nilai 1
+
+Agar dapat diberikan tanda (X) pada kolom grade
+
+No                Komponen Penilaian       Bobot                Grade                          E  Nilai
+                                           Nilai A          BCD
+
+1 Sikap dan Penampilan                          3
+
+2         Kemampuan Presentasi dan              7
+          Berfikir
+
+3 Kemampuan Penguasaan Sistem 5
+
+4 Kemampuan Teori dan Konsep                    4
+
+5         Kemampuan Analisis dan                6
+          Rancangan
+
+6 Kemampuan Implementasi                        5
+
+                            Total Nilai 2
+
+                                  Total Nilai
+
+Persetujuan:                                                Penguji,
+
+Revisi Juli 2025                                   ________________________
+                                                                             Page 53
+PEDOMAN PENYUSUNAN SKRIPSI
+
+                              KUTIPAN DAN DAFTAR PUSTAKA
+
+    Penulisan kutipan dan Daftar Pustaka mengikuti kaidah-kaidah sebagai berikut:
+1. Model penulisan kutipan yang dipakai adalah:
+
+    a. Penulis­Tahun­Halaman (P.T.H) atau disebut dengan Author Date Page (ADP) Style
+         dengan cara mencantumkan Nama Penulis, Tahun terbitan dan nomor halaman yang
+         dikutip.
+
+    b. Nama Penulis yang dicantumkan pada kutipan hanya nama keluarga (Family Name)
+         dan tanpa mencantumkan gelar akademik dari penulis.
+
+    c. Kutipan yang tidak lebih dari 3 baris diketik dengan jarak 1.5 baris spasi dan menjadi
+         satu dengan teks dan diberi tanda kutip (") serta dapat diletakkan sebelum kutipan
+         atau sesudah kutipan.
+         Contoh:
+         Sebelum kutipan:
+               Emory dan Cooper (1995:37) mengungkapkan: "The Philosophy of Science or,
+         more specifycally, epistemology is the body of knowledge that provides the
+         classification that helps us discriminate among the styles of thinking"
+         Sesudah kutipan:
+               Demikian pula yang didefinisikan penulis lain: "The Philosophy of Science or,
+         more specifically epistemology is the body of knowledge that provides the
+         classification that helps us discriminate among the styles of thinking" (Emory dan
+         Cooper, 1995:37)
+
+    d. Kutipan yang lebih dari 3 baris dipisahkan dari tulisan penulis sehingga membentuk
+         alinea tersendiri dengan jarak baris satu spasi, batas kiri masuk 0,5" dan batas kanan
+         sama dengan margin teks.
+         Contoh kutipan yang lebih dari 3 baris:
+               Sutabri (2016:4) mendefinisikan siklus hidup sistem dam komponen-
+         komponennya sebagai berikut:
+               "Siklus hidup sistem (system life cycle) adalah proses evolusioner yang diikuti
+               dalam penerapan sistem atau subsistem informasi berbasis komputer. Siklus
+               hidup sistem terdiri dari serangkaian tugas yang mengikuti langkah-langkah
+               pendekatan sistem, karena tugas-tugas tersebut mengikuti pola yang teratur dan
+               dilakukan top down."
+
+Revisi Juli 2025  Page 54
+PEDOMAN PENYUSUNAN SKRIPSI
+
+e. Kutipan paraphrase (mengutip ide dan kemudian menyusunnya kembali dengan
+    bahasa penulisan sendiri) diketik sesuai dengan aturan kutipan kurang dari empat
+    baris.
+
+f. Kutipan berupa tabel, grafik atau daftar:
+    1) Nomor catatan kaki ditulis di akhir judul tabel
+    2) Catatan kaki ditulis langsung di bawah tabel
+
+g. Kutipan dari kutipan
+    Dalam catatan kaki disebutkan sumber pertamanya lalu disebutkan dikutip oleh
+    penulis dari mana.
+    Contoh:
+    2) Felix Nigro, Personal Management, dikutip dari Sujadi, Manajemen Personalia,
+    dst.
+
+h. Pengutipan pada sumber informasi dapat merupakan bagian kalimat dengan halaman
+    yang dinyatakan dalam tanda kurung mengikutinya, atau nama penulis dan nomor
+    halaman seluruhnya dicantumkan dalam tanda kurung di akhir kutipan.
+         Sukmana (2011:152) menyatakan bahwa ..... (isi kutipan) atau ... (isi kutipan)
+    (Sukmana, 2011:152)
+
+i. Jika hendak mengacu pada percobaan yang dilakukan X, yang nama dan
+    percobaannya disebut dalam buku karangan Wismoyo dkk. (contoh di atas) di
+    halaman 260, misalnya, maka pengutipannya dalam teks dinyatakan sebagai berikut:
+         Percobaan fusi dingin tahun 1989 memberi hasil ... (lihat Wismoyo dkk.
+    1990:260). Dalam hal demikian, jangan sekali-kali menuliskan kutipan di dalam teks
+    jika buku karangan X tidak dicantumkan dalam Daftar Kutipan, bahkan
+    kemungkinan besar tidak diperiksa sendiri oleh mahasiswa.
+
+j. Jika lebih dari suatu karya penulis yang sama dikutip, suatu bentuk singkat dari judul
+    dituliskan.
+         Ibu Mien Sugandi menjelaskan keberatannya terhadap keikutsertaan Indira
+    Sudiro dalam acara Miss Universe di Mexico (Sutanto, Wanita 25-35).
+
+k. Karya dalam beberapa volume dikutip sebagai berikut:
+        Psikologi didefinisikan sebagai ilmu yang mempelajari tingkah laku manusia
+
+    (Danutirto 2:100).
+l. Cara penulis kutipan diletakkan di dalam tanda kutip. Bila sebelum kutipan
+
+    digunakan kata "menulis" atau "menyatakan" maka biasanya diikuti dengan tanda
+    koma, sedangkan kata lainnya biasanya diikuti oleh tanda titik dua.
+
+Revisi Juli 2025            Page 55
+PEDOMAN PENYUSUNAN SKRIPSI
+
+        Ratno Singgih menulis, "Film Indonesia belum bisa menjadi tuan rumah di
+    negaranya sendiri."
+
+        Ratno Singgih berpendapat: "Film Indonesia belum bisa menjadi tuan rumah di
+    negaranya sendiri."
+m. Bila terdapat kata yang dihilangkan maka dapat digunakan tanda ellipsis yaitu tiga
+    ketukan dengan tanda titik. Bila ingin menambahkan kata atau kalimat, kata atau
+    kalimat tersebut dapat diletakkan di dalam tanda kurung siku.
+
+        Jenderal Wiranto mengatakan bahwa: Pergantian Pangab akan dilakukan pada
+    hari Sabtu tanggal 8 Mei 1993... Jendral Faisal Tanjung [Saat ini menjabat Kepala
+    Staff Umum ABRI] adalah seorang lulusan AKABRI angkatan 1962 (Rosihan 45).
+
+2. Penulisan Sumber Kutipan dari Buku (Daftar Pustaka)
+    Unsur-unsur yang harus ada adalah Penulis, Judul, Tempat: Penerbit, Tahun.
+    a. Jarak antar unsur adalah satu ketukan kosong (setelah tanda titik).
+    b. Nama penulis ditulis terbalik atau berdasarkan nama keluarganya. Bila terdapat
+        beberapa penulis maka nama penulis kedua dan selanjutnya tidak lagi dituliskan
+        terbalik melainkan berdasarkan nama yang tertulis di buku yang dijadikan acuan.
+    c. Tahun penerbitan yang dipakai adalah tahun terakhir saat buku itu diterbitkan.
+    d. Jika acuan ditulis oleh dua pengarang, maka kedua nama pengarang ditulis dengan
+        menambahkan kata "dan" (untuk acuan buku berbahasa Indonesia) atau kata and
+        (untuk buku acuan berbahasa Inggris) di antara nama kedua pengarang tersebut.
+        Nama pengarang kedua tidak perlu dibalik melainkan ditulis dengan urutan biasa.
+        Tetapi, jika acuan disusun oleh lebih dari dua pengarang, maka hanya nama
+        pengarang pertama dituliskan, diikuti dengan dkk. atau et al. di belakangnya (dicetak
+        miring).
+         Atkinson, L.V. Pascal Programming. New York: Free Press, 1980.
+         Golub, G. H. and Wolter R. Mears. Matrix Computations 2nd ed. Baltimore: The
+                 Johns Hopkins University Press, 1989.
+
+3. Pencantuman Sumber Kutipan dari Majalah
+   Unsur-unsur yang harus ada adalah:
+    Penulis. "Judul, " Majalah Volume (Nomor), Halaman.
+    Bernstein, P. A. and D. W. Shipman, "The Correctness of Concurrency Control
+              Mechanism in a System for Distributed Database." ACM Trans on Database
+              System, 5 (1980). 52-68.
+
+Revisi Juli 2025            Page 56
+PEDOMAN PENYUSUNAN SKRIPSI
+
+Kuttner, Bob. "The Declining Middle,"Atlantic Monthly July 1983, 60-72.
+Pothen, A. "Simplicialcliques, shortest elimination trees, and super nodes in sparse
+
+         Cholesky factorization." Technical Report CS-88-13, Dept. Of Computer
+         Science Pennsylvania: The PennsylvaniaState University, University Park,
+         1988.
+
+   Catatan:
+   Singkatan nama majalah disesuaikan dengan peraturan internasional yang berlaku.
+   Ketentuan untuk itu dikemukakan antara lain dalam World list of scientific periodicals.
+   a. Dalam contoh pertama, tanda baca titik mengakhiri singkatan nama majalah yang
+
+        dicetak miring (dengan Pengolah Kata). Angka 5 menyatakan volume majalah (dalam
+        majalah Indonesia biasanya "Tahun ke-5" atau tahun V,").
+   b. Judul artikel diletakkan dalam tanda petik dan nama majalah ditulis miring.
+   c. Untuk technical report, yang biasanya dikeluarkan oleh suatu universitas, yang
+        dicantumkan adalah report tersebut, nama dan alamat universitas atau institusi yang
+        mengeluarkan serta nomor dan tahun penerbitan.
+   d. Nomor volume tidak perlu disebutkan untuk penerbitan mingguan atau bulanan tetapi
+        selalu disebutkan untuk majalah triwulanan.
+   e. Nomor majalah di bawah 100 ditulis penuh: 60-72. Untuk nomor lebih besar dari 100
+        dan dalam batasan 100, hanya dua angka terakhirnya disebutkan: 208-22, tetapi 163-
+        207.
+4. Pengarang Tidak dikenal
+   Jika sumber informasi yang digunakan tidak dicantumkan nama penulis atau editor, maka
+   acuan menggunakan nama tim penyusun, nama penerbit, atau lembaga yang menerbitkan.
+   Pusat Pembinaan dan Pengembangan Bahasa, Pedoman Umum Ejaan Bahasa Indonesia
+
+             yang Disempurnakan, Jakarta: P.N. Balai Pustaka, 1979.
+   Tim Penelaah Bidang Pengetahuan Alam. Tinjauan tentang perairan Indonesia bagian
+
+             Timur untuk mendasari pemilihan lokasi stasiun penelitian laut, Jakarta:
+             Lembaga Ilmu Pengetahuan Indonesia, 1985.
+   A Critical Fable. Boston: Hougton Mifflin, 1992.
+   Anonymous, M.D. The Healers. New York: Putnam, 1967.
+   "Coping with Nature." Time 29 Aug. 1983, hal. 10-11.
+5. Edisi
+   Sebutkan tahun edisi yang dipakai, bukan tahun pada saat buku tersebut diterbitkan
+
+Revisi Juli 2025            Page 57
+PEDOMAN PENYUSUNAN SKRIPSI
+
+   pertama kalinya.
+   Barklund, Elmer. Contemporary Literacy Criticism 2nd ed. Detroit: Gale, 1982.
+   Makaliwe, Hendrik. Matematika Kombinatorik Ed. 4. Jakarta: Gramedia, 1990.
+6. Editor
+   Posisi nama editor diletakkan sesudah judul buku dengan namanya ditulis dengan
+   susunan nama biasa, sedangkan nama pengarang tetap diletakkan di depan.
+   Saroyan, Willian. My Name Is Saroyan Ed. James H. Tasjian. New York: Coward-
+
+            McCann, 1983.
+7. Pengarang Gabungan
+
+   Jika suatu karangan ditulis oleh lebih dari seorang penulis, maka semua nama
+   penulisnya dinyatakan dalam daftar kutipan.
+   Vetterling, W.T. Teukolsky, S.A., Press, W.H. and Flannery, B.P. Numerical Recipes
+
+             (Pascal) Revised Edition. Cambridge: Cambridge University Press, 1989.
+   Chancellor, John, and Walter R. Mears. The New Business. New York: Herper & Row,
+
+             1983.
+   Krosnow, Erwin C,, Lawrence D. Longley, and Herbert A. Terry. The Politics of
+
+          Broadcast Regulation. New York: St. Matin's Press, 1982.
+8. Judul dalam Judul
+
+   Jika sumber informasi berupa karangan ilmiah yang dimuat dalam suatu himpunan
+   karangan, maka kutipan mencantumkan nama penulis yang karangannya digunakan,
+   disertai keterangan lengkap mengenai himpunan karangan yang menjadi asal kutipan
+   tersebut.
+   Morton K. W., 1968. "Initial-value Problems by Finite Difference and other Methods.
+
+             "Studies in The State of the art in Numerical Analisys Ed. D. Jacobs. Oxford:
+             Academic Press, 1980.
+   Sukardjo, Atika. "Pengaruh Lingkungan Keluarga Pada Perkembangan Anak. "Studi
+             Dalam: Perkembangan Anak di Indonesia Jakarta: Balai Cipta, 1993.
+9. Terjemahan
+   Jika sumber informasi berupa karya terjemahan, maka pencantumannya dalam daftar
+   kutipan dituliskan sebagai berikut:
+   Mitchell, A.R. & Graffiths, D.F., Metode Beda Hingga untuk Persamaan Differential
+             Parsial Terjemahan: T. Basaruddin. Jakarta: Pusat Antar Universitas Ilmu
+             Komputer Universitas Indonesia, 1985.
+   Beauvoir, Simonede. When Things of the Spirit Come First Trans. Patrick O'Brien.
+
+Revisi Juli 2025            Page 58
+PEDOMAN PENYUSUNAN SKRIPSI
+
+             NewYork: Pantheon, 1982.
+10. Perangkat Lunak Komputer
+
+   Jika sumber informasi berupa manual perangkat lunak, maka pencantumannya dalam
+   daftar kutipan dituliskan sebagai berikut:
+   Kusmiak, Gene. Bank Street Writer Perangkat Lunak dan Manual. San Rafael, CA:
+
+            Brodenbund, 1983. IBM, 64k, 1.1 or 2.0.
+11. Bahan yang ditulis oleh Pengarang yang sama jika menggunakan lebih dari satu
+
+   sumber yang ditulis oleh pengarang yang sama, maka nama pengarang dituliskan lengkap
+   pada entry pertama.
+   Liu, J.W.H. "A compact row storage scheme for cholesky factors using elimination trees."
+
+             ACM Trans on Math Software, 12 (1986), 127-148.
+   ---------------- "The role ofe limination trees insparse factorization, "SIAMJMATRIX
+
+             Anal & Appl, 11(1990). 134-172.
+
+   Jika sumber-sumber yang ditulis pengarang yang sama diterbitkan dalam tahun yang
+   sama, maka data tahun terbitan diikuti ambing a, b, c, yang urutannya ditentukan secara
+   kronologis berdasarkan tanggal atau bulan penerbitannya, atau berdasarkan abjad judul
+   karangan masing-masing jika keterangan saat yang tepat penerbitannya tidak diketahui.
+   Stewart, G. A "A Note on The Pertubarbanation of Singular Values." Lin. Alg and lts
+
+            Appl., 28 (1979ª),213-228.
+   --------------- " Pertubarbation Bounds for The Definite Generalized Eigenvalue
+
+            Problem." J. Inst. Math.Appl., 23 (1979b), 203-215.
+12. Pustaka dalam bentuk artikel dalam internet (sedapat mungkin hindari pustaka dari
+
+   internet tanpa nama penulis):
+   a. Artikel majalah ilmiah versi cetakan:
+
+        Penulis. tahun, judul artikel, nama majalah (harus ditulis miring sebagai singkatan
+        resminya), nomor, volume dan halaman.
+   b. Artikel majalah ilmiah versi online:
+        Penulis, tahun, judul artikel, nama majalah (harus ditulis miring sebagai singkatan
+        resminya), nomor, volume, halaman dan alamat website.
+   c. Artikel umum:
+        Penulis, tahun, judul artikel, alamat website (harus ditulis miring), diakses tanggal....
+13. Tata Nama dalam Sistem Pengutipan
+
+Revisi Juli 2025            Page 59
+PEDOMAN PENYUSUNAN SKRIPSI
+
+   a. Sebutan Sr. (senior) ataupun Jr. (Junior) dan urutan keturunan dicantumkan sesudah
+        nama pengarang.
+        Talmadge E. King Jr. menjadi King Jr., T.E.
+        Ira Raymond Edward III menjadi Edward III, I.R.
+
+   b. Nama Cina ditulis berdasarkan nama keluarga.
+        Gan Koen Han menjadi Gan, Koen Han
+        Lie-Injo Luan Eng menjadi Lie-Injo, Luan Eng
+
+   c. Nama India (dengan das), Arab, dan Yunani (el, ibn, abdel, ben).
+        J. Ben Barak menjadi Ben Barak, J.
+        A. El Gafar menjadi El Gafar, A.
+
+   d. Nama Indonesia, berdasarkan nama keluarga atau yang dianggap sebagai
+       penggantinya.
+       N. Sutan Iskandar menjadi Iskandar, N. Sutan
+       Boen S. Oemarjati menjadi Oemarjati, Boen S.s
+
+Revisi Juli 2025  Page 60
+PEDOMAN PENYUSUNAN SKRIPSI
+
+                   INSTITUT TEKNOLOGI & BISNIS BINA SARANA GLOBAL
+
+                        Jl. Aria Santika No. 43A Margasari, Karawaci, Kota Tangerang, Banten, Indonesia, 15113
+                            Telp. 021-5522727 Email: kampus@global.ac.id Website: www.global.ac.id
+
+                KARTU BIMBINGAN SKRIPSI
+
+NIM                                : ..............................
+
+Nama Mahasiswa                     : ..............................
+
+Program Studi                      : ..............................                    Foto,
+                                                                                       pakai
+Konsentrasi                        : ..............................                 almamater
+
+Dosen Pembimbing Utama             : ....................................
+
+Dosen Pembimbing Pendamping : ....................................
+
+Judul Skripsi                      : ...........................................................................
+
+                                   ...........................................................................
+
+Tanggal :                          Tanggal :                             Tanggal :
+
+Paraf :                            Paraf :                               Paraf :
+Tanggal :                          Tanggal :                             Tanggal :
+
+Paraf :                            Paraf :                               Paraf :
+
+Dinyatakan : LAYAK / TIDAK LAYAK mengikuti sidang skripsi
+
+                                   Tangerang,..........................
+
+                                   Disetujui oleh,
+
+Dosen Pembimbing Utama                                               Dosen Pembimbing Pendamping
+
+.................................                                    .................................
+Revisi Juli 2025                                                                                    Page 61
+PEDOMAN PENYUSUNAN SKRIPSI
+
+Tanggal :                   Tanggal :  Tanggal :
+
+Paraf :                     Paraf :    Paraf :
+Tanggal :                   Tanggal :  Tanggal :
+
+Paraf :                     Paraf :    Paraf :
+Tanggal :                   Tanggal :  Tanggal :
+
+Paraf :                     Paraf :    Paraf :
+Tanggal :                   Tanggal :  Tanggal :
+
+Paraf :                     Paraf :     Paraf :
+Tanggal :                   Tanggal :  Tanggal :
+
+    Paraf :                 Paraf :    Paraf :
+Revisi Juli 2025
+                                                  Page 62
+PEDOMAN PENYUSUNAN SKRIPSI
+
+Revisi Juli 2025            Page 63
+

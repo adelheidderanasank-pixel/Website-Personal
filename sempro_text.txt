@@ -1,0 +1,557 @@
+PERANCANGAN SISTEM INFORMASI PENJUALAN SEMBAKO BERBASIS WEB DENGAN PENDEKATAN ALGORITMA APRIORI UNTUK ANALISIS POLA PEMBELIAN BARANG DI TOKO MARTIN
+
+
+
+PROPOSAL
+
+
+
+
+Disusun Oleh:
+ NIM
+:  Sandro Trifosa
+  Nama
+:  1222140093
+
+
+         PROGRAM STUDI SISTEM INFORMASI
+FAKULTAS TEKNOLOGI INFROMASI & KOMUNIKASI 
+INSTITUT TEKNOLOGI DAN BISNIS
+BINA SARANA GLOBAL
+TANGERANG
+2025
+
+
+INSTITUT TEKNOLOGI DAN BISNIS BINA SARANA GLOBAL
+
+
+LEMBAR PERSETUJUAN PENGUJI
+
+
+NIM
+:
+1222140093
+Nama
+:
+Sandro Trifosa
+Program Studi
+:
+Sistem Informasi
+Fakultas
+:
+Sistem Informasi Manajemen
+Jenjang Studi
+:
+Strata 1
+Judul                                                     
+:
+Perancangan Sistem Informasi Penjualan Sembako Berbasis Web Dengan Pendekatan Algoritma Apriori Untuk Analisis Pola Pembelian Barang Di Toko Martin
+
+
+Disetujui setelah berhasil dipertahankan di hadapan Tim Penguji Ujian Komprehensif.
+
+Tangerang, 13 September 2025
+ Penguji,
+
+
+
+Achmad Sidik, M.Kom.
+NUPTK. 7250757658130143
+
+ABSTRAK
+
+ABSTRACT
+
+KATA PENGANTAR
+Puji syukur kehadirat Tuhan Yang Maha Esa karena berkat Rahmat dan Karunia-Nya penulis dapat menyelesaikan penyusunan skripsi ini. Salawat serta salam semoga senantiasa tercurah kepada Tuhan Yang Maha Esa, keluarganya, para sahabatnya, hingga umatnya sampai akhir zaman, amin. 
+Penulisan skripsi ini diajukan untuk memenuhi salah satu syarat kelulusan dalam jenjang perkuliahan Strata 1 (S1) Institut Teknologi dan Bisnis Bina Sarana Global. Penyelesaian tugas akhir ini tidak lepas dari arahan, bantuan, dan kolaborasi dari banyak pihak. Penulis ingin menyampaikan rasa terima kasih yang mendalam, terutama kepada orang tua dan keluarga yang selalu memberikan dukungan secara moral, materi, dan dorongan yang tiada henti, serta doa yang selalu menyertainya. Selanjutnya dengan tulus hati penulis ingin mengucapkan terima kasih kepada semua pihak yang telah membantu penulis dalam penyusunan skripsi ini, diantaranya: 
+Bapak Assoc. Prof. Dr. H. Dedi Royadi, M.Si. selaku Rektor Institut Teknologi dan Bisnis Bina Sarana Global. 
+Bapak Muchamad Iqbal, S.E., M.Kom. selaku Wakil Rektor Bidang Akademik. 
+Bapak Dr. M. Ramaddan Julianti, M.T. selaku Dekan Teknologi Informasi dan Komunikasi
+Bapak Achmad Sidik, M.Kom. selaku Ketua Program Studi Sistem Informasi.
+Bapak Syaipul Ramadhan, M.Kom. selaku dosen Mata Kuliah Metode Riset dan Penilitian. 
+Semoga Tuhan Yang Maha Esa memberikan imbalan atas semua kebaikan dengan berlipat ganda. Penulis sangat mengharapkan masukan dan kritik yang membangun. Penulis berharap karya ini dapat memberikan manfaat, dan segala hal penulis serahkan kepada Tuhan Yang Maha Kuasa.
+
+Tangerang, 13 September 2025
+   Penulis
+
+           Sandro Trifosa
+DAFTAR ISI
+
+ABSTRAKi
+ABSTRACTii
+KATA PENGANTARiii
+DAFTAR ISIiv
+DAFTAR TABELvi
+DAFTAR GAMBARvii
+BAB I PENDAHULUAN1
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484305" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>1.1Latar Belakang1
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484306" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>1.2Identifikasi Masalah2
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484307" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>1.3Rumusan Masalah3
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484308" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>1.4Ruang Lingkup3
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484309" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>1.5Tujuan dan Manfaat4
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484310" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>1.5.1.Tujuan4
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484311" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>1.5.2.Manfaat4
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484312" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>1.6Metode Penelitian5
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484313" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>1.6.1.Jenis Penelitian5
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484314" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>1.6.2.Metode Pengumpulan Data5
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484315" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>1.7Sistematika Penulisan5
+BAB II  LANDASAN TEORI8
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484317" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t xml:space="preserve">2.1. Teori Dasar atau Umum8
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484318" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t xml:space="preserve">2.1.1. Pengertian Sistem Informasi8
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484319" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t xml:space="preserve">2.1.2. Komponen Sistem Informasi9
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484320" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t xml:space="preserve">2.1.3. Konsep Penjualan dan Transaksi Ritel9
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484321" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t xml:space="preserve">2.1.4. Pengertian Sembako dan Karakteristik Pasar Tradisional10
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484322" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>2.1.5.Perkembangan Teknologi Informasi dalam Bisnis Ritel10
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484323" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>2.1.6.Manfaat Website dalam Pengelolaan Penjualan11
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484324" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t xml:space="preserve">2.2. Teori Khusus12
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484325" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t xml:space="preserve">2.2.1. Data Mining12
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484326" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t xml:space="preserve">2.2.2. Association Rule12
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484327" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t xml:space="preserve">2.2.3. Algoritma Apriori13
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484328" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t xml:space="preserve">2.2.4. Flowchart14
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484329" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t xml:space="preserve">2.2.5. Unified Modeling Language (UML)15
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484330" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t xml:space="preserve">2.2.6. Black Box Testing15
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484331" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t xml:space="preserve">2.3. Literatur Review/Penelitian Sebelumya16
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484332" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t xml:space="preserve">2.4. Teori Yang Digunakan19
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484333" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t xml:space="preserve">2.5. Kerangka Pemikiran Penelitian21
+BAB III METODE PENELITIAN22
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484335" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>3.1.Jenis Penelitian22
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484336" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t xml:space="preserve">3.2. Sifat Penelitian22
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484337" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t xml:space="preserve">3.3. Lokasi dan Periode Penelitian23
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484338" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t xml:space="preserve">3.4. Subjek dan Objek Penelitian24
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484339" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t xml:space="preserve">3.4.1. Subjek24
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484340" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t xml:space="preserve">3.4.2. Objek24
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484341" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t xml:space="preserve">3.5. Sumber Data25
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484342" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t xml:space="preserve">3.6. Metode Pengumpulan Data26
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484343" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t xml:space="preserve">3.7. Metode Analisis Data27
+		</w:tabs><w:spacing w:after="0" w:line="360" w:lineRule="auto"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc208484344" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00711146"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t xml:space="preserve">3.8. Proses Penelitian29
+DAFTAR PUSTAKA32
+
+
+DAFTAR TABEL
+	</w:tabs><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:r><w:rPr><w:lang w:eastAsia="en-ID"/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:lang w:eastAsia="en-ID"/></w:rPr><w:instrText xml:space="preserve"> TOC \h \z \c "Tabel 2." </w:instrText></w:r><w:r><w:rPr><w:lang w:eastAsia="en-ID"/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:hyperlink w:anchor="_Toc208484346" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00E77692"><w:rPr><w:rStyle w:val="Hyperlink"/><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:noProof/></w:rPr><w:t>Tabel 2. 1 Literatur Review16
+
+
+DAFTAR GAMBAR
+	</w:tabs><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi"/><w:noProof/><w:kern w:val="2"/><w:szCs w:val="24"/><w:lang w:val="en-US"/><w14:ligatures w14:val="standardContextual"/></w:rPr></w:pPr><w:r><w:rPr><w:lang w:eastAsia="en-ID"/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:lang w:eastAsia="en-ID"/></w:rPr><w:instrText xml:space="preserve"> TOC \h \z \c "Gambar 1." </w:instrText></w:r><w:r><w:rPr><w:lang w:eastAsia="en-ID"/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:hyperlink w:anchor="_Toc208484347" w:history="1"><w:r w:rsidR="000145E1" w:rsidRPr="00E77692"><w:rPr><w:rStyle w:val="Hyperlink"/><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:noProof/></w:rPr><w:t>Gambar 1. 1 Kerangka Pikir Penelitian21
+
+
+BAB IPENDAHULUAN
+Latar Belakang
+UMKM masih menghadapi tantangan besar ketika pencatatan transaksi dilakukan secara manual. Cara tradisional ini tidak hanya memperlambat arus informasi yang seharusnya cepat dan akurat, tetapi juga rawan menimbulkan kesalahan yang dapat merugikan usaha. Hambatan tersebut kerap menyulitkan pemilik usaha dalam memantau stok barang dan menyebabkan keterlambatan penyusunan laporan penjualan, sehingga berdampak pada lambatnya pengambilan keputusan strategis.
+Sejalan dengan berkembangnya kebutuhan digitalisasi, penerapan sistem informasi penjualan berbasis web semakin mendesak. Beberapa penelitian sebelumnya menegaskan bahwa sistem informasi semacam ini dapat menyederhanakan proses transaksi, meningkatkan akurasi pencatatan, dan menghadirkan data real-time yang meminimalisasi beban administrasi. Hal ini juga diperkuat oleh yang menunjukkan bahwa pemanfaatan teknologi informasi dapat secara langsung meningkatkan efisiensi operasional UMKM.
+Di sisi lain, pemanfaatan algoritma Apriori dalam data mining juga banyak dibahas dalam penelitian terdahulu. menekankan bahwa algoritma ini mampu menemukan pola pembelian konsumen yang bermanfaat untuk menyusun strategi pemasaran. serta juga menyatakan bahwa pemahaman mendalam tentang perilaku pelanggan melalui analisis data historis dapat meningkatkan produktivitas serta efektivitas strategi penjualan.
+Penelitian sebelumnya menunjukkan bahwa integrasi sistem informasi berbasis web dengan algoritma analitik dapat memberikan keuntungan kompetitif, baik dalam efisiensi transaksi maupun pengelolaan basis data pelanggan. Hal ini menunjukkan bahwa UMKM berpeluang untuk berinovasi sekaligus memperkuat daya saing.
+Temuan awal di Toko Martin memperlihatkan bahwa pencatatan transaksi masih dilakukan secara manual. Kondisi ini sejalan dengan yang diungkapkan dan tanpa dukungan sistem digital, UMKM cenderung kesulitan dalam mengelola data penjualan maupun menganalisis pola pembelian konsumen.
+Berdasarkan permasalahan dan hasil penelitian sebelumnya, saya mengambil judul “PERANCANGAN SISTEM INFORMASI PENJUALAN SEMBAKO BERBASIS WEB DENGAN PENDEKATAN ALGORITMA APRIORI UNTUK ANALISIS POLA PEMBELIAN BARANG DI TOKO MARTIN” karena ingin merancang sistem informasi penjualan sembako berbasis web dengan algoritma Apriori. Tujuannya adalah membantu Toko Martin dalam efisiensi, akurasi pencatatan, serta kecepatan dalam pengambilan keputusan, sekaligus memberikan kontribusi nyata bagi pengembangan UMKM di era digital.
+Identifikasi Masalah
+Berdasarkan latar belakang yang telah dipaparkan, dapat diidentifikasi beberapa permasalahan sebagai berikut:
+Proses pencatatan transaksi penjualan di Toko Martin masih dilakukan secara sederhana, sehingga rawan terjadi kesalahan dan membutuhkan waktu lebih lama dalam pengelolaannya.
+Data transaksi yang sudah ada belum dimanfaatkan secara optimal untuk menganalisis pola pembelian pelanggan, padahal informasi tersebut dapat berguna dalam menentukan strategi penjualan.
+Pemilik toko belum memiliki sistem yang terintegrasi untuk membantu pengambilan keputusan berbasis data, khususnya dalam menentukan stok barang maupun strategi promosi.
+Belum tersedia sistem informasi penjualan berbasis web yang dapat diakses dengan mudah, sehingga pengelolaan penjualan dan analisis data masih terbatas.
+Penerapan algoritma data mining, seperti Apriori, belum digunakan untuk mengolah data transaksi yang ada agar menghasilkan pola asosiasi antar barang yang sering dibeli bersamaan.
+Rumusan Masalah
+Berdasarkan uraian pada latar belakang, maka penelitian ini difokuskan untuk menjawab beberapa permasalahan berikut:
+Bagaimana proses perancangan sistem informasi penjualan sembako berbasis web yang mampu memudahkan pengelolaan transaksi di Toko Martin?
+Bagaimana penerapan algoritma Apriori pada data penjualan dapat digunakan untuk menemukan pola pembelian barang di Toko Martin?
+Bagaimana implementasi sistem informasi penjualan berbasis web yang terintegrasi dengan algoritma Apriori dapat memberikan dukungan dalam pengambilan keputusan bagi pemilik Toko Martin?
+Ruang Lingkup
+Agar penelitian ini lebih terfokus dan tidak melebar ke luar konteks, maka ditetapkan beberapa ruang lingkup sebagai berikut:
+Sistem informasi yang dirancang hanya berfokus pada pengelolaan data penjualan sembako di Toko Martin, tidak mencakup sistem pembelian atau distribusi barang dari pemasok.
+Lingkup penelitian terbatas pada pembuatan sistem berbasis web dengan fitur utama pencatatan transaksi penjualan, pengelolaan data barang, dan penyajian laporan.
+Algoritma yang digunakan dalam analisis pola pembelian pelanggan adalah algoritma Apriori, tanpa membandingkan dengan algoritma data mining lainnya.
+Data yang dianalisis merupakan data transaksi penjualan yang diperoleh dari Toko Martin dalam kurun waktu tertentu.
+Hasil penelitian hanya digunakan sebagai simulasi dan rekomendasi untuk mendukung pengambilan keputusan penjualan, bukan sebagai sistem komersial yang langsung diimplementasikan secara penuh.
+Tujuan dan Manfaat
+1.5.1.Tujuan
+Tujuan penelitian ini disusun berdasarkan rumusan masalah yang telah ditetapkan, yaitu:
+Merancang sistem informasi penjualan sembako berbasis web yang dapat mempermudah proses pencatatan, pengelolaan transaksi, serta penyusunan laporan penjualan di Toko Martin.
+Menerapkan algoritma Apriori pada data transaksi penjualan untuk menganalisis pola pembelian konsumen sehingga dapat memberikan informasi yang berguna bagi strategi penjualan.
+Menguji implementasi sistem informasi penjualan berbasis web dengan algoritma Apriori dalam mendukung pengambilan keputusan pemilik toko terkait pengelolaan stok dan penentuan strategi pemasaran.
+1.5.2.Manfaat
+Manfaat Teoritis
+Memberikan kontribusi dalam pengembangan ilmu pengetahuan, khususnya di bidang sistem informasi, bisnis digital, dan penerapan data mining pada sektor ritel.
+Menjadi referensi akademis bagi peneliti selanjutnya yang ingin mengkaji penerapan algoritma Apriori dalam sistem informasi penjualan.
+Manfaat Praktis
+Bagi Toko Martin: Membantu pemilik dalam mengelola transaksi penjualan, menganalisis pola pembelian konsumen, serta mendukung pengambilan keputusan berbasis data.
+Bagi Pengembang Sistem: Menjadi contoh penerapan nyata integrasi sistem informasi penjualan berbasis web dengan metode data mining.
+Bagi UMKM Lain: Dapat dijadikan model atau inspirasi dalam mengembangkan sistem informasi penjualan yang lebih modern dan berbasis analisis data.
+Metode Penelitian
+1.6.1.Jenis Penelitian
+Penelitian ini menggunakan pendekatan penelitian deskriptif dengan metode kuantitatif dan pengembangan sistem (Research and Development/R&D). Jenis penelitian ini dipilih karena bertujuan untuk merancang, membangun, serta mengimplementasikan sistem informasi penjualan sembako berbasis web yang terintegrasi dengan algoritma Apriori.
+Melalui pendekatan deskriptif, penelitian ini berusaha menggambarkan kebutuhan sistem berdasarkan kondisi nyata di lapangan, yakni bagaimana transaksi penjualan dikelola di Toko Martin. Sementara itu, metode R&D digunakan untuk menghasilkan produk berupa sistem informasi yang tidak hanya mendokumentasikan transaksi, tetapi juga memberikan analisis pola pembelian konsumen. Dengan demikian, penelitian ini tidak hanya memaparkan fenomena, tetapi juga menawarkan solusi berupa sistem informasi yang siap digunakan.
+1.6.2.Metode Pengumpulan Data
+Untuk memperoleh data yang akurat dan relevan dengan tujuan penelitian, digunakan beberapa teknik pengumpulan data ialah:
+Observasi
+Wawancara
+Dokumentasi
+Studi Pustaka
+Sistematika Penulisan
+Sistematika penulisan dalam penelitian ini disusun agar memudahkan pembahasan dan pemahaman terhadap isi penelitian. Adapun susunannya adalah sebagai berikut:
+BAB I PENDAHULUAN
+Bab ini berisi uraian mengenai latar belakang masalah, identifikasi masalah, rumusan masalah, batasan masalah, tujuan penelitian, manfaat penelitian, metode penelitian yang digunakan, serta sistematika penulisan.
+BAB II LANDASAN TEORI
+Bab ini membahas teori-teori yang mendukung penelitian, meliputi teori dasar maupun teori khusus. Pada bagian teori dasar dijelaskan mengenai konsep sistem informasi, penjualan, transaksi ritel, perkembangan teknologi informasi, serta pemanfaatan website dalam bisnis. Pada teori khusus diuraikan tentang data mining, association rule, algoritma Apriori, flowchart, UML, serta metode black box testing. Selain itu, bab ini juga memuat penelitian terdahulu, teori yang digunakan, kerangka pemikiran penelitian, dan hipotesis.
+BAB III METODE PENELITIAN
+Bab ini menguraikan metode penelitian yang digunakan, meliputi jenis penelitian, sifat penelitian, lokasi dan periode penelitian, subjek dan objek penelitian, sumber data, metode pengumpulan data, metode analisis data, serta prosedur penelitian yang digunakan dalam merancang dan mengimplementasikan sistem.
+BAB IV HASIL DAN PEMBAHASAN
+Bab ini menyajikan hasil penelitian berupa analisis kebutuhan sistem, perancangan sistem dengan UML, implementasi sistem informasi penjualan berbasis web, penerapan algoritma Apriori pada data transaksi, serta pengujian sistem menggunakan metode black box testing. Selanjutnya dibahas pula bagaimana sistem yang dibangun dapat membantu pemilik toko dalam pengambilan keputusan penjualan.
+BAB VPENUTUP
+Bab ini berisi kesimpulan dari hasil penelitian yang telah dilakukan serta saran yang dapat diberikan untuk pengembangan sistem lebih lanjut maupun untuk penelitian di masa mendatang.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BAB II LANDASAN TEORI
+2.1. Teori Dasar atau Umum
+2.1.1. Pengertian Sistem Informasi
+Sistem informasi (SI) dipahami sebagai suatu kesatuan terpadu yang terdiri dari perangkat keras, perangkat lunak, data, prosedur, serta pengguna <w:id w:val="761424302"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:eastAsia="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/><w:lang w:eastAsia="en-ID"/></w:rPr><w:t>(Sofialaela et al., 2024). Seluruh komponen tersebut bekerja bersama untuk mengumpulkan, mengolah, menyimpan, hingga menyebarkan informasi yang dibutuhkan dalam mendukung proses pengambilan keputusan, koordinasi, kontrol, analisis, maupun pemrograman di dalam organisasi <w:id w:val="1183403160"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:eastAsia="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/><w:lang w:eastAsia="en-ID"/></w:rPr><w:t>(Farahat et al., 2022). Pemanfaatan teknologi informasi dalam sistem ini mampu meningkatkan efektivitas dan efisiensi operasional, sehingga berpengaruh langsung terhadap peningkatan kinerja organisasi. Dalam ranah bisnis, keberadaan sistem informasi sangat berperan penting, terutama dalam aktivitas pengolahan data dan transaksi <w:id w:val="448124853"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:eastAsia="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/><w:lang w:eastAsia="en-ID"/></w:rPr><w:t>(Farahat et al., 2022).
+Terdapat berbagai jenis sistem informasi yang dapat digunakan sesuai kebutuhan, seperti sistem informasi manajemen (SIM), sistem pendukung keputusan, dan sistem informasi transaksi <w:id w:val="-165171427"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:eastAsia="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/><w:lang w:eastAsia="en-ID"/></w:rPr><w:t>(Farahat et al., 2022). Masing-masing jenis memiliki fungsi spesifik; SIM misalnya berfokus pada pengelolaan data di tingkat manajerial, sedangkan sistem transaksi difungsikan untuk mengelola data operasional harian <w:id w:val="-249043701"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:eastAsia="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/><w:lang w:eastAsia="en-ID"/></w:rPr><w:t>(Aviqah et al., 2024). Pada era digital, sistem informasi juga mencakup ranah e-commerce yang memungkinkan terjadinya transaksi secara daring serta memperluas jangkauan pasar.
+Pemahaman yang tepat mengenai sistem informasi membantu organisasi dalam merancang sistem yang efektif, efisien, serta adaptif terhadap perubahan kebutuhan bisnis. Namun, sistem informasi yang baik tidak hanya dibangun, melainkan juga harus dievaluasi serta dipelihara secara berkelanjutan agar selalu relevan dengan perkembangan teknologi yang cepat <w:id w:val="1329564519"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:eastAsia="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/><w:lang w:eastAsia="en-ID"/></w:rPr><w:t>(Sofialaela et al., 2024).
+2.1.2. Komponen Sistem Informasi
+Sebuah sistem informasi terdiri atas lima komponen utama, yaitu perangkat keras, perangkat lunak, data, prosedur, serta pengguna.
+Perangkat keras mencakup alat fisik seperti komputer, server, dan jaringan yang diperlukan untuk pengolahan data <w:id w:val="1488594699"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:eastAsia="Times New Roman"/><w:color w:val="000000"/></w:rPr><w:t>(Shafitri & R.L, 2024).
+Perangkat lunak berfungsi mengatur kerja perangkat keras agar sesuai dengan tujuan sistem. Aplikasi yang dipakai harus disesuaikan dengan kebutuhan agar mempermudah proses pengolahan data <w:id w:val="-831058945"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>(Excelina et al., 2021).
+Data menjadi pusat dari sistem, sebab kualitas informasi sangat bergantung pada tata kelola data yang baik.
+Prosedur memberikan aturan yang jelas mengenai tata cara penggunaan sistem. Tanpa prosedur standar, kemungkinan kesalahan pengolahan data akan meningkat <w:id w:val="843363399"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>(Aviqah et al., 2024).
+Pengguna merupakan elemen vital yang berinteraksi langsung dengan sistem. Mereka memerlukan pelatihan agar dapat memanfaatkan sistem secara optimal <w:id w:val="633760427"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:eastAsia="Times New Roman"/><w:color w:val="000000"/></w:rPr><w:t>(Shafitri & R.L, 2024).
+Interaksi yang baik antar semua komponen akan menghasilkan sistem informasi yang efektif sekaligus efisien.
+2.1.3. Konsep Penjualan dan Transaksi Ritel
+Penjualan dalam konteks ritel adalah proses pertukaran barang atau jasa yang dilakukan langsung kepada konsumen akhir, baik secara konvensional di toko maupun secara daring melalui e-commerce <w:id w:val="-682978169"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>(Aditiya et al., 2022). Aktivitas ini meliputi pengadaan barang, pengelolaan stok, pemrosesan transaksi, hingga pelaporan penjualan <w:id w:val="-2037262098"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>(Fatich et al., 2023).
+Memahami perilaku konsumen menjadi faktor penting dalam ritel, yang dapat dianalisis melalui data transaksi. Algoritma seperti FP-Growth memungkinkan identifikasi pola pembelian konsumen sehingga memudahkan strategi pemasaran dan pengaturan persediaan <w:id w:val="1951815422"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>(Fatich et al., 2023).
+Selain itu, perkembangan teknologi telah mempercepat proses transaksi melalui sistem informasi penjualan berbasis web serta metode pembayaran digital <w:id w:val="-1427654582"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>(Fatich et al., 2023). Kehadiran e-commerce bahkan memperluas cakupan pasar ritel dari sekadar lingkup lokal menjadi global, sehingga membuka peluang peningkatan penjualan.
+2.1.4. Pengertian Sembako dan Karakteristik Pasar Tradisional
+Sembako merujuk pada sembilan kebutuhan pokok masyarakat, di antaranya beras, minyak goreng, gula, dan telur <w:id w:val="-2109884765"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>(Pah et al., 2023). Sementara itu, pasar tradisional dipahami sebagai ruang jual beli dengan interaksi langsung antara penjual dan pembeli, yang umumnya melibatkan proses tawar-menawar. Pasar ini didominasi oleh pedagang kecil yang menjual produk lokal dan segar.
+Meskipun bersaing dengan pasar modern, pasar tradisional memiliki keunggulan berupa harga yang relatif lebih bersaing serta ragam produk yang lebih beragam <w:id w:val="-940758923"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>(Randi, 2021). Bahkan, ada barang-barang tertentu yang hanya dapat ditemukan di pasar tradisional, sehingga memberikan nilai tambah bagi konsumen (Putra, 2021).
+Di tengah perkembangan teknologi, beberapa pasar tradisional mulai menerapkan sistem pencatatan digital untuk meningkatkan efisiensi layanan dan mempercepat transaksi <w:id w:val="-389808438"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>(Putra, 2021). Pemahaman atas karakteristik pasar tradisional beserta kebutuhan sembako menjadi dasar penting dalam menyusun strategi bisnis ritel yang relevan.
+2.1.5.Perkembangan Teknologi Informasi dalam Bisnis Ritel
+Teknologi informasi membawa pengaruh besar bagi bisnis ritel. Penerapan sistem berbasis TI membuat manajemen penjualan dan inventaris menjadi lebih efisien serta responsif terhadap kebutuhan konsumen <w:id w:val="846684394"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>(Aviqah et al., 2024). Pemanfaatan aplikasi berbasis web dan perangkat mobile telah mengubah metode berbisnis tradisional dengan layanan yang lebih cepat dan nyaman <w:id w:val="-1057931255"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:eastAsia="Times New Roman"/><w:color w:val="000000"/></w:rPr><w:t>(Goutama & Basri, 2022).
+Selain itu, sistem informasi memungkinkan analisis data transaksi dalam skala besar dengan hasil yang lebih akurat. Teknologi data mining, seperti FP-Growth, dapat digunakan untuk menggali pola pembelian sekaligus memprediksi tren pasar <w:id w:val="-718272840"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>(Subaegi et al., 2024).
+Perkembangan e-commerce juga mendorong peritel untuk menyesuaikan strategi bisnis, karena internet memberikan peluang pemasaran lintas wilayah. Interaksi langsung dengan konsumen kini dapat dilakukan melalui media sosial dan aplikasi digital, menciptakan pengalaman belanja yang lebih interaktif <w:id w:val="-1167790192"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>(Aditiya et al., 2022). Situasi ini menuntut peritel untuk membangun sistem omnichannel agar pelanggan memperoleh pengalaman belanja yang konsisten.
+2.1.6.Manfaat Website dalam Pengelolaan Penjualan
+Website menjadi sarana penting dalam pengelolaan penjualan.
+Aksesibilitas 24/7 memungkinkan konsumen bertransaksi, mencari informasi produk, dan melakukan pembelian kapan pun tanpa batas waktu <w:id w:val="2054412716"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>(Randi, 2021).
+Jangkauan pasar lebih luas dengan biaya relatif rendah dibanding pemasaran tradisional, terutama melalui SEO dan digital marketing <w:id w:val="1870879095"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>(Y. S. Putra et al., 2024).
+Analisis data pelanggan dan transaksi memberikan wawasan mengenai perilaku konsumen, yang dapat dijadikan dasar perumusan strategi pemasaran <w:id w:val="-32958477"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>(C. Putra, 2021).
+Interaksi dengan pelanggan dapat ditingkatkan melalui fitur chatbot, ulasan, maupun media sosial, yang berpengaruh terhadap loyalitas konsumen <w:id w:val="-1655826797"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>(Fatich et al., 2023).
+Pelaporan dan monitoring penjualan lebih mudah dilakukan secara real-time, sehingga peritel dapat menilai performa bisnis secara lebih akurat.
+Dengan demikian, website bukan hanya media transaksi, tetapi juga instrumen strategis dalam meningkatkan kinerja bisnis ritel.
+
+2.2. Teori Khusus 
+2.2.1. Data Mining
+Data mining adalah proses eksplorasi dan analisis terhadap kumpulan data dalam skala besar untuk menemukan pola yang sebelumnya tersembunyi serta menghasilkan informasi bernilai. Proses ini tidak hanya mencakup pengolahan data, tetapi juga bagaimana informasi tersebut dimanfaatkan untuk mendukung pengambilan keputusan. Menurut <w:id w:val="-2125447617"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>Gunawan et al. (2023), pemanfaatan teknik seperti algoritma asosiasi dan Apriori dapat meningkatkan efektivitas analisis, baik untuk prediksi cuaca maupun penjualan. 
+Dengan pola yang teridentifikasi, organisasi mampu:
+Mengembangkan strategi bisnis yang lebih tepat.
+Meningkatkan interaksi dengan pelanggan.
+Mengoptimalkan kampanye pemasaran.
+Tujuan utama dari data mining adalah mendorong pengambilan keputusan berbasis bukti. Melalui analisis data, organisasi dapat memahami perilaku konsumen serta preferensi pasar, sehingga mendukung pengembangan produk maupun layanan. 
+<w:id w:val="-246967374"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:proofErr w:type="spellStart"/><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>Yudhistira et al. (2023) mencatat beberapa manfaat, antara lain:
+Mengidentifikasi produk yang sering dibeli bersamaan.
+Memperkuat efektivitas promosi.
+Mendorong peningkatan penjualan.
+Selain itu, data mining juga membantu efisiensi operasional. Misalnya, analisis data transaksi ritel mampu mendeteksi pola pembelian yang relevan untuk pengelolaan inventaris, sehingga risiko kelebihan maupun kekurangan stok dapat ditekan <w:id w:val="175008798"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>(Gunawan et al., 2023). Dengan demikian, data mining berperan penting dalam mendukung keputusan bisnis yang lebih cepat dan akurat.
+2.2.2. Association Rule
+Aturan asosiasi merupakan teknik utama dalam data mining yang digunakan untuk mengidentifikasi hubungan antar item dalam sebuah dataset. Pola ini biasanya berbentuk LHS (Left Hand Side) => RHS (Right Hand Side), di mana jika LHS terpenuhi, maka RHS berpeluang besar ikut muncul <w:id w:val="-109054513"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>(Gunawan et al., 2023). Teknik ini relevan dalam konteks pasar, khususnya untuk memahami perilaku pembelian konsumen.
+Prinsip aturan asosiasi berlandaskan pada dua nilai utama <w:id w:val="1581873045"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:eastAsia="Times New Roman"/><w:color w:val="000000"/></w:rPr><w:t>(Khrisnawati & Renita, 2023):
+Support: frekuensi munculnya aturan dalam dataset.
+Confidence: tingkat keandalan aturan tersebut.
+<w:id w:val="-634414038"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:proofErr w:type="spellStart"/><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>Ismasari et al. (2020) menegaskan bahwa penerapan algoritma asosiasi dapat:
+Mengidentifikasi pola pembelian konsumen.
+Menjadi dasar perancangan promosi yang lebih tepat sasaran.
+Aturan asosiasi juga banyak digunakan pada analisis keranjang belanja, sehingga penjual dapat mengetahui produk yang sering dibeli bersamaan. Penerapannya tidak terbatas pada sektor ritel saja, tetapi juga bermanfaat di bidang kesehatan, finansial, hingga keamanan data <w:id w:val="-587236753"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>(Gunawan et al., 2023).
+2.2.3. Algoritma Apriori
+Algoritma Apriori merupakan metode dalam data mining untuk menemukan frequent itemsets atau itemset yang sering muncul dalam transaksi (Abidin et al., 2022).
+Prinsip dasar algoritma ini adalah jika sebuah itemset sering muncul, maka semua subset dari itemset tersebut juga sering muncul<w:id w:val="1589579517"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t xml:space="preserve"> (Ridla et al., 2023).
+Langkah kerja algoritma Apriori:
+Menentukan semua itemset berukuran satu yang memenuhi threshold support.
+Mengulang proses hingga tidak ada lagi itemset baru yang memenuhi kriteria.
+
+Metode ini efektif dalam analisis pola pembelian, karena mampu mengekstrak hubungan antar produk dari data transaksi <w:id w:val="-1258366004"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>(Freddie et al., 2021;<w:id w:val="-2025860431"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t xml:space="preserve"> Rosmayati et al., 2023). Beberapa penerapannya antara lain:
+<w:id w:val="1374805549"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>Gunawan et al. (2023) Algoritma Apriori menghasilkan rekomendasi produk yang sesuai untuk pemilik usaha.
+<w:id w:val="678087792"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>Marselina et al. (2023): Algoritma ini membantu penyesuaian penawaran berdasarkan pola pembelian.
+2.2.4. Flowchart
+Flowchart adalah representasi diagram yang menjelaskan alur suatu proses, meliputi langkah, urutan, serta logika kejadian. Simbol standar dalam flowchart membantu memvisualisasikan sistem sehingga mudah dipahami oleh pemangku kepentingan <w:id w:val="1294406719"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>(Rosmayati et al., 2023).
+Kegunaannya antara lain:
+Mengidentifikasi langkah-langkah dalam sistem.
+Mempermudah pemahaman alur kerja serta potensi masalah.
+Menjadi alat perencanaan logika program sebelum implementasi.
+Selain itu, flowchart juga memudahkan pelatihan staf dan pengenalan sistem baru. Visualisasi yang jelas mampu meningkatkan komunikasi, kolaborasi, serta keterlibatan tim <w:id w:val="-718897728"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>(Aufarrizqi et al., 2024).
+
+Gambar 2. 1 Sistem Penjualan
+           Sumber: Penulis, 2025
+2.2.5. Unified Modeling Language (UML)
+Unified Modeling Language (UML) adalah standar untuk menggambarkan, memvisualisasikan, serta mendokumentasikan aspek perangkat lunak. UML menyediakan berbagai jenis diagram untuk merepresentasikan struktur maupun perilaku sistem (Voutama, 2022).
+Komponen utama UML antara lain (Hendrawan et al., 2024):
+Use Case Diagram: menggambarkan interaksi pengguna dengan sistem untuk memudahkan identifikasi kebutuhan.
+Class Diagram: menampilkan struktur sistem, mencakup kelas, atribut, metode, serta hubungan antar kelas.
+Sequence Diagram: menunjukkan interaksi antar objek berdasarkan urutan waktu.
+Penerapan UML membantu tim pengembang berkolaborasi lebih baik dan memastikan desain perangkat lunak terorganisir serta sistematis <w:id w:val="1221330485"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>(Ridla et al., 2023).
+2.2.6. Black Box Testing
+Black box testing adalah metode pengujian perangkat lunak yang menitikberatkan pada fungsionalitas aplikasi tanpa memeriksa struktur internal sistem. Fokus utamanya adalah memastikan aplikasi bekerja sesuai spesifikasi yang ditetapkan (Jibril et al., 2024).
+Beberapa manfaat utama <w:id w:val="1289007161"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>(Rosmayati et al., 2023):
+Memastikan sistem berjalan sesuai kebutuhan pengguna.
+Mengevaluasi berbagai skenario penggunaan untuk meningkatkan kualitas perangkat lunak.
+Mengidentifikasi bug atau error yang sulit ditemukan dengan metode lain.
+Kekuatan dari metode ini adalah fleksibilitasnya untuk diterapkan di berbagai tahap siklus pengembangan perangkat lunak. Dengan dukungan alat otomatisasi, pengujian dapat dilakukan lebih cepat dan efisien, terutama pada aplikasi yang kompleks.
+
+2.3. Literatur Review/Penelitian Sebelumya
+Penelitian terdahulu berfungsi sebagai pijakan awal bagi penulis dalam menyusun riset ini, sekaligus membuka peluang untuk memperluas penggunaan teori dalam proses analisis. Walaupun belum ditemukan studi dengan judul yang persis sama, sejumlah penelitian sebelumnya tetap dijadikan acuan untuk memperdalam pembahasan dan memperkaya isi penelitian. Beberapa karya ilmiah berupa skripsi maupun artikel jurnal yang relevan turut disoroti penulis sebagai referensi pendukung penelitian ini.
+Tabel 2. 1 Literatur Review
+No.
+Nama Penelitian & Tahun Penelitian
+Judul Penelitian
+Variabel Yang Diteliti
+Alat Analisis
+Hasil Penelitian
+1.
+Ferry Putrawansyah Fey (2023) 
+Application of the Apriori Algorithm to Purchase Patterns
+Produk yang sering dibeli bersama
+Algoritma Apriori
+Sistem dapat mengidentifikasi paket penjualan produk, membantu meningkatkan omset penjualan.
+2.
+Sufajar Butsianto dkk. (2023) 
+Implementasi Algoritma Apriori dalam Menemukan Pola Asosiasi pada Data Penjualan Produk Retail
+Kategori produk (susu, kopi, teh, dsb.)
+Support, confidence, lift (Apriori)
+Ditemukan hubungan antar kategori produk dalam 5972 transaksi, yang bisa mendukung strategi retail.
+3.
+Siti Hadija dkk. (2023) 
+Application of Data Mining on Patterns of Sales of Goods in Minimarkets Using the Apriori Algorithm
+Transaksi penjualan minimarket
+Apriori (≥30% support, ≥80% confidence)
+Terbentuk 8 aturan asosiasi yang menunjukkan pola pembelian di minimarket Mawar Simp.Tangsi.
+4.
+Ridwan & Hendarman (2025) 
+Implementation of the Apriori Algorithm for Product Arrangement in a Minimarket
+Penempatan produk & transaksi pelanggan
+Algoritma Apriori
+Memberikan rekomendasi penataan produk berdasarkan item-item yang sering dibeli bersama.
+5.
+Oka Ristawaty Sirait dkk. (2023) 
+Application of Associations Using the Apriori Algorithm to Analyze Consumer Purchase Patterns at Grocery Stores
+Transaksi bahan kebutuhan sehari-hari
+Apriori (support 50%, confidence 70%)
+Mengidentifikasi pola pembelian konsumen dengan nilai minimal support dan confidence yang dipenuhi.
+6. 
+Windi Maharani & Raissa Amanda (2024)
+Determining Sales Patterns of Beauty Products Using the Apriori Algorithm
+Produk kecantikan
+Apriori (Python)
+Dibentuk analisis pola pembelian produk kecantikan untuk strategi stok dan pemasaran.
+7. 
+Jonathan Susanto & Indah Fenriana (2023) 
+Web-Based POS with Apriori Market Basket Analysis
+Transaksi POS, stok produk
+POS web + Apriori
+Aplikasi POS berbasis web yang dapat menganalisis pola pembelian konsumen.
+8.
+Karisma Dwi Fernanda dkk. (2023) 
+Analysis and Implementation of the Apriori Algorithm for Strategies to Increase Sales at Sakinah Mart
+Layout produk, transaksi penjualan
+CRISP-DM + Apriori
+Memberi rekomendasi penataan barang dan paket promosi untuk meningkatkan penjualan.
+9.
+Moh. Lambang Prayugo dkk. (2023) 
+Data Mining Application Analyzing Customer Purchase Patterns Using The Apriori Algorithm
+Pembelian kosmetik
+Apriori (shop cart analysis)
+Ditemukan kebiasaan pembelian berulang produk kecantikan, mendukung manajemen stok & strategi pemasaran.
+10.
+Fitri Rahmawati & Nita Merlina (2022) 
+Metode Data Mining Terhadap Data Penjualan Sparepart Mesin Fotocopy Menggunakan Algoritma Apriori
+Sparepart fotocopy (toner & drum dc)
+Apriori (Tanagra)
+Kombinasi paling populer adalah drum dc dan toner (support 50%, confidence 66,67% dan 85,71%).
+  Sumber: Penulis, 2025
+2.4. Teori Yang Digunakan 
+Teori Sistem Informasi
+Menurut Laudon & Laudon (2020), sistem informasi adalah kombinasi dari teknologi, manusia, dan prosedur yang digunakan untuk mengumpulkan, memproses, menyimpan, dan mendistribusikan informasi untuk mendukung pengambilan keputusan. Sistem informasi berbasis web dipilih karena mampu memberikan kemudahan dalam pengelolaan data transaksi penjualan serta mempercepat akses informasi kapan saja dan di mana saja.
+Teori E-Commerce dan Penjualan Ritel
+Kotler & Keller (2016) menjelaskan bahwa teknologi digital telah mengubah pola distribusi barang dan perilaku konsumen dalam melakukan pembelian. Dalam konteks ritel sembako, penerapan sistem informasi berbasis web dapat memperluas jangkauan konsumen dan membantu pemilik toko dalam mengelola transaksi lebih efektif.
+Teori Data Mining
+Han, Kamber, & Pei (2012) mendefinisikan data mining sebagai proses mengekstraksi informasi atau pola yang berguna dari basis data dalam jumlah besar. Data mining digunakan dalam penelitian ini untuk menggali pola pembelian konsumen dari data transaksi penjualan.
+Teori Association Rule
+Menurut Agrawal, Imieliński, & Swami (1993), association rule mining adalah metode untuk menemukan keterkaitan antar item dalam sebuah transaksi. Teori ini relevan karena dapat digunakan untuk menemukan pola produk yang sering dibeli bersamaan di Toko Martin.
+Teori Algoritma Apriori
+Algoritma Apriori adalah salah satu metode dalam data mining yang digunakan untuk menghasilkan aturan asosiasi dari sekumpulan data transaksi. Agrawal & Srikant (1994) menyatakan bahwa algoritma ini bekerja dengan pendekatan iteratif berdasarkan frekuensi itemset, sehingga hanya itemset dengan support dan confidence tertentu yang diproses. Teori ini mendasari proses analisis pola pembelian dalam penelitian ini.
+Teori Pengambilan Keputusan
+Menurut Simon (1997), pengambilan keputusan merupakan proses memilih alternatif terbaik dari beberapa pilihan yang tersedia berdasarkan informasi yang ada. Dalam penelitian ini, hasil analisis Apriori digunakan sebagai bahan pertimbangan pemilik toko dalam menentukan strategi penjualan, misalnya menyusun paket promosi atau mengatur tata letak produk.
+2.5. Kerangka Pemikiran Penelitian
+
+<w:p w14:paraId="52056F33" w14:textId="0F416646" w:rsidR="004B5E27" w:rsidRPr="001707F6" w:rsidRDefault="001707F6" w:rsidP="001707F6"><w:pPr><w:pStyle w:val="Caption"/><w:ind w:left="0"/><w:jc w:val="center"/><w:rPr><w:b/><w:bCs/><w:i w:val="0"/><w:iCs w:val="0"/><w:noProof/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:b/><w:bCs/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t xml:space="preserve">               Gambar 2. 2 Kerangka Pikir Penelitian
+<w:p w14:paraId="52056F33" w14:textId="0F416646" w:rsidR="004B5E27" w:rsidRPr="001707F6" w:rsidRDefault="001707F6" w:rsidP="001707F6"><w:pPr><w:pStyle w:val="Caption"/><w:ind w:left="0"/><w:jc w:val="center"/><w:rPr><w:b/><w:bCs/><w:i w:val="0"/><w:iCs w:val="0"/><w:noProof/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:b/><w:bCs/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t xml:space="preserve">               Gambar 2. 2 Kerangka Pikir Penelitian
+      Sumber: Penulis, 2025
+
+
+BAB IIIMETODE PENELITIAN
+3.1.Jenis Penelitian
+Dalam penelitian ini, jenis penelitian yang digunakan adalah penelitian kuantitatif dengan pendekatan Research and Development (R&D). Pendekatan kuantitatif dipilih karena penelitian ini memanfaatkan data transaksi penjualan yang bersifat numerik, kemudian dianalisis menggunakan algoritma Apriori untuk menemukan pola pembelian konsumen. Selain itu, penggunaan metode R&D bertujuan untuk menghasilkan produk nyata berupa sistem informasi penjualan sembako berbasis web yang dapat digunakan oleh Toko Martin.
+Penelitian R&D menurut <w:id w:val="1940719049"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:proofErr w:type="spellStart"/><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/><w:lang w:eastAsia="en-ID"/></w:rPr><w:t>Sugiyono (2021) merupakan metode penelitian yang tidak hanya bertujuan menemukan pengetahuan baru, tetapi juga menghasilkan produk yang dapat langsung diterapkan. Pada penelitian ini, produk yang dikembangkan adalah sebuah sistem informasi yang mampu mencatat transaksi penjualan sekaligus memberikan analisis pola pembelian barang sebagai dasar pengambilan keputusan bisnis.
+Dengan demikian, penelitian ini tidak hanya bersifat deskriptif untuk menjelaskan fenomena yang ada, tetapi juga aplikatif karena menghasilkan solusi nyata berupa sistem berbasis teknologi informasi yang relevan dengan kebutuhan pengguna.
+3.2. Sifat Penelitian
+Menurut <w:id w:val="-1114824909"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:proofErr w:type="spellStart"/><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>Sugiyono (2021), sifat penelitian dapat dibedakan menjadi beberapa bentuk, di antaranya eksploratif, deskriptif, verifikatif, serta pengembangan (developmental research). Pemilihan sifat penelitian disesuaikan dengan tujuan dan keluaran yang ingin dicapai.
+Penelitian ini memiliki sifat deskriptif dan pengembangan (developmental). Sifat deskriptif digunakan karena penelitian berusaha menggambarkan kondisi nyata terkait proses penjualan di Toko Martin, khususnya mengenai bagaimana transaksi dilakukan dan kendala yang muncul dalam pencatatan manual. Dengan sifat deskriptif, penelitian ini mampu memberikan gambaran menyeluruh tentang kebutuhan sistem informasi yang akan dirancang.
+Sementara itu, sifat pengembangan dipilih karena penelitian ini tidak berhenti pada tahap pengumpulan dan analisis data, tetapi juga menghasilkan produk berupa sistem informasi penjualan berbasis web. Sistem ini dilengkapi dengan penerapan algoritma Apriori yang digunakan untuk menganalisis pola pembelian konsumen. Dengan demikian, penelitian ini tidak hanya menjelaskan fenomena, tetapi juga menghadirkan solusi nyata yang aplikatif.
+Secara keseluruhan, sifat penelitian ini adalah deskriptif-pengembangan, yang sesuai dengan tujuan utama penelitian yaitu merancang dan mengimplementasikan sistem informasi yang dapat mendukung proses penjualan serta pengambilan keputusan di Toko Martin.
+
+3.3. Lokasi dan Periode Penelitian
+Penelitian ini dilaksanakan di Toko Martin, yaitu sebuah toko yang bergerak di bidang penjualan kebutuhan pokok (sembako). Pemilihan lokasi ini didasarkan pada pertimbangan bahwa Toko Martin masih menggunakan pencatatan manual dalam pengelolaan transaksi penjualan, sehingga sering mengalami kendala dalam penyusunan laporan serta analisis pola pembelian konsumen. Kondisi ini menjadikan Toko Martin sebagai tempat yang relevan untuk dilakukan penelitian sekaligus implementasi sistem informasi penjualan berbasis web.
+Adapun periode penelitian dilaksanakan mulai dari tahap persiapan hingga penyusunan laporan akhir, yang mencakup:
+Tahap persiapan penelitian, yaitu pengumpulan referensi, perumusan masalah, serta penyusunan instrumen penelitian.
+Tahap pengumpulan data, yang dilakukan melalui observasi, wawancara, dan dokumentasi transaksi di Toko Martin.
+Tahap perancangan dan pengembangan sistem, meliputi analisis kebutuhan, desain sistem dengan UML, implementasi sistem berbasis web, serta penerapan algoritma Apriori.
+Tahap pengujian sistem, menggunakan metode black box testing untuk memastikan sistem berjalan sesuai kebutuhan.
+Tahap penyusunan laporan, yaitu penulisan hasil penelitian, analisis, serta kesimpulan.
+Keseluruhan kegiatan penelitian ini dilaksanakan dalam kurun waktu kurang lebih tiga bulan (September s.d November 2025), menyesuaikan dengan kalender akademik serta kebutuhan pengembangan sistem.
+3.4. Subjek dan Objek Penelitian
+3.4.1. Subjek
+Subjek penelitian adalah pihak-pihak yang terlibat langsung dalam proses pengumpulan informasi dan data penelitian. Pada penelitian ini, subjek yang dimaksud adalah pemilik dan pegawai Toko Martin. Pemilik toko dipilih sebagai subjek karena memiliki pemahaman menyeluruh mengenai kebutuhan sistem, kendala pencatatan manual, serta harapan terhadap sistem informasi penjualan yang akan dikembangkan. Sementara itu, pegawai toko dilibatkan karena mereka berinteraksi langsung dengan transaksi harian sehingga dapat memberikan gambaran nyata mengenai alur kerja, prosedur pencatatan penjualan, dan kesulitan yang dihadapi.
+3.4.2. Objek
+Objek penelitian adalah hal atau aspek yang menjadi fokus utama dalam penelitian. Pada penelitian ini, objek yang diteliti adalah sistem informasi penjualan sembako di Toko Martin. Fokus penelitian diarahkan pada perancangan dan implementasi sistem informasi berbasis web yang mampu:
+Mempermudah pencatatan transaksi penjualan harian.
+Mengelola data barang dan stok secara lebih terstruktur.
+Menerapkan algoritma Apriori pada data transaksi untuk menganalisis pola pembelian konsumen.
+Menyajikan laporan penjualan yang dapat digunakan pemilik toko sebagai bahan pengambilan keputusan.
+Dengan demikian, subjek penelitian memberikan informasi langsung melalui observasi dan wawancara, sedangkan objek penelitian menjadi pusat pengembangan sistem informasi yang ditujukan untuk menyelesaikan permasalahan nyata di lapangan.
+..
+3.5. Sumber Data
+Menurut Sugiyono (2021), sumber data dalam penelitian adalah asal diperolehnya data yang digunakan untuk menjawab permasalahan penelitian. Sumber data dapat berupa data primer maupun data sekunder yang masing-masing memiliki fungsi berbeda dalam mendukung hasil penelitian.
+Dalam penelitian ini, sumber data yang digunakan adalah sebagai berikut:
+Data Primer
+Data primer merupakan data yang diperoleh secara langsung dari lapangan tanpa melalui perantara. Pada penelitian ini, data primer diperoleh melalui:
+Observasi, yaitu pengamatan langsung terhadap proses transaksi penjualan di Toko Martin, mulai dari pencatatan penjualan, pengelolaan stok, hingga penyusunan laporan.
+Wawancara, yang dilakukan dengan pemilik dan pegawai toko untuk menggali informasi mengenai kebutuhan sistem, kendala pencatatan manual, serta harapan terhadap sistem penjualan berbasis web.
+Dokumentasi transaksi, berupa nota penjualan dan catatan stok barang yang digunakan sebagai basis data untuk penerapan algoritma Apriori.
+
+Data Sekunder
+Data sekunder merupakan data pendukung yang diperoleh melalui studi pustaka dan literatur yang relevan dengan topik penelitian. Data ini mencakup:
+Buku dan jurnal yang membahas sistem informasi, data mining, association rule, serta algoritma Apriori.
+Penelitian terdahulu yang mengkaji perancangan sistem informasi penjualan maupun penerapan algoritma Apriori dalam analisis pola pembelian.
+Artikel, laporan, atau sumber daring terpercaya yang terkait dengan perkembangan teknologi informasi di bidang bisnis ritel.
+Dengan mengombinasikan data primer dan sekunder, penelitian ini diharapkan menghasilkan rancangan sistem informasi yang sesuai dengan kebutuhan pengguna serta memiliki dasar teoritis yang kuat.
+3.6. Metode Pengumpulan Data
+Menurut <w:id w:val="723337198"/><w:placeholder><w:docPart w:val="DefaultPlaceholder_-1854013440"/></w:placeholder></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:proofErr w:type="spellStart"/><w:r w:rsidR="000C1F06" w:rsidRPr="000C1F06"><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:color w:val="000000"/><w:szCs w:val="24"/></w:rPr><w:t>Sugiyono (2021), metode pengumpulan data merupakan langkah strategis dalam penelitian karena tujuan utama penelitian adalah memperoleh data yang akurat. Teknik pengumpulan data harus disesuaikan dengan jenis penelitian, sumber data, serta tujuan yang ingin dicapai.
+Dalam penelitian ini, digunakan beberapa metode pengumpulan data sebagai berikut:
+Observasi
+Observasi dilakukan dengan cara mengamati langsung proses transaksi penjualan di Toko Martin. Melalui metode ini, peneliti dapat mengetahui bagaimana alur pencatatan transaksi, pengelolaan stok barang, serta permasalahan yang muncul akibat penggunaan pencatatan manual. Observasi memberikan gambaran nyata mengenai kebutuhan sistem informasi yang akan dikembangkan.
+Wawancara
+Wawancara dilakukan secara langsung dengan pemilik dan pegawai Toko Martin. Tujuan wawancara adalah menggali informasi mendalam terkait kendala dalam pengelolaan penjualan, fitur yang dibutuhkan dalam sistem, serta harapan pemilik toko terhadap penerapan algoritma Apriori untuk menganalisis pola pembelian konsumen.
+Dokumentasi
+Metode dokumentasi digunakan untuk mengumpulkan data transaksi berupa nota penjualan, catatan stok, serta laporan penjualan yang tersedia di Toko Martin. Dokumen-dokumen ini sangat penting karena akan dijadikan data dasar dalam proses implementasi algoritma Apriori untuk menemukan pola pembelian barang.
+Studi Pustaka
+Studi pustaka dilakukan dengan mempelajari literatur yang relevan, baik berupa buku, jurnal, maupun penelitian terdahulu yang membahas sistem informasi, data mining, association rule, dan algoritma Apriori. Studi pustaka ini memberikan dasar teoritis yang memperkuat landasan penelitian dan mendukung proses perancangan sistem.
+Dengan menggunakan kombinasi dari keempat metode tersebut, data yang diperoleh diharapkan lengkap, valid, dan mampu menggambarkan kebutuhan nyata dalam pengembangan sistem informasi penjualan sembako berbasis web di Toko Martin.
+3.7. Metode Analisis Data
+Analisis data dalam penelitian ini dilakukan secara bertahap dengan tujuan untuk mengolah data transaksi penjualan sembako agar dapat menghasilkan informasi yang bermanfaat dalam mendukung keputusan bisnis di Toko Martin. Proses analisis dimulai dengan pengumpulan data transaksi penjualan yang diperoleh dari catatan penjualan harian. Data tersebut kemudian diproses dan dianalisis menggunakan pendekatan algoritma apriori, yaitu salah satu teknik dalam data mining yang berfungsi untuk menemukan pola keterkaitan (association rules) antar barang yang sering dibeli secara bersamaan oleh konsumen.
+Tahapan analisis data dengan algoritma apriori meliputi:
+
+Data Cleaning dan Preprocessing
+Pada tahap ini, data transaksi penjualan yang terkumpul diperiksa untuk memastikan tidak terdapat data ganda, data kosong, maupun data yang tidak relevan. Proses ini penting agar data yang dianalisis benar-benar valid dan dapat menghasilkan pola yang akurat.
+Pembentukan Itemset
+Setelah data dinyatakan bersih, transaksi penjualan dipetakan ke dalam bentuk itemset, yaitu sekumpulan produk yang dibeli oleh pelanggan dalam satu kali transaksi. Itemset inilah yang menjadi dasar perhitungan dalam algoritma apriori.
+Perhitungan Support
+Nilai support digunakan untuk mengukur seberapa besar tingkat kemunculan suatu item atau kombinasi item dalam keseluruhan transaksi. Rumusnya:
+
+
+Dengan demikian, hanya item atau kombinasi item yang memiliki nilai support lebih besar atau sama dengan ambang batas (minimum support) yang ditentukan yang akan dipertahankan untuk proses selanjutnya.
+Perhitungan Confidence
+Nilai confidence menunjukkan tingkat kepercayaan atau probabilitas keterkaitan antar item. Misalnya, jika dalam suatu aturan A → B diperoleh confidence 70%, artinya 70% dari transaksi yang mengandung A juga mengandung B. Rumusnya:
+
+
+Aturan asosiasi dengan nilai confidence di atas ambang batas (minimum confidence) akan dipertahankan sebagai pola pembelian.
+
+Pembentukan Association Rules
+Berdasarkan hasil perhitungan support dan confidence, aturan asosiasi (association rules) akan terbentuk. Aturan ini memberikan informasi tentang keterkaitan antar produk yang sering dibeli secara bersamaan, sehingga dapat dimanfaatkan dalam strategi penjualan, seperti cross-selling atau penataan barang di toko.
+Implementasi Hasil Analisis ke dalam Sistem
+Pola pembelian yang ditemukan melalui algoritma apriori kemudian diimplementasikan ke dalam sistem informasi penjualan berbasis web. Dengan demikian, sistem tidak hanya berfungsi sebagai pencatatan transaksi, tetapi juga sebagai alat analisis yang dapat memberikan rekomendasi strategis bagi pengelola toko.
+Dengan metode analisis data ini, penelitian diharapkan mampu menghasilkan sistem informasi yang tidak hanya mendukung proses transaksi penjualan, tetapi juga memberikan nilai tambah berupa analisis pola pembelian barang yang akurat. Hasil analisis tersebut dapat digunakan untuk merancang strategi promosi, mengelola stok barang, serta meningkatkan pelayanan kepada pelanggan di Toko Martin.
+
+
+3.8. Proses Penelitian
+Penelitian ini dilakukan melalui beberapa tahapan yang terstruktur agar hasil yang diperoleh sesuai dengan tujuan penelitian. Tahapan tersebut dijelaskan sebagai berikut:
+Identifikasi Masalah
+Proses penelitian dimulai dengan mengidentifikasi permasalahan yang dihadapi oleh Toko Martin, yaitu pengelolaan transaksi penjualan yang masih bersifat manual dan belum terintegrasi dalam sebuah sistem informasi. Selain itu, pemilik toko belum memiliki alat bantu analisis untuk mengetahui pola pembelian konsumen yang dapat digunakan dalam pengambilan keputusan penjualan.
+Studi Literatur
+Setelah masalah teridentifikasi, peneliti melakukan pengumpulan teori dan penelitian terdahulu yang relevan. Studi literatur mencakup pembahasan mengenai konsep data mining, aturan asosiasi (association rule), algoritma Apriori, Unified Modeling Language (UML), serta metode pengujian sistem seperti black box testing. Literatur ini menjadi landasan dalam merancang sistem informasi yang sesuai.
+Pengumpulan Data
+Data transaksi penjualan di Toko Martin dikumpulkan sebagai bahan utama dalam penelitian. Data ini mencakup catatan pembelian barang oleh konsumen yang akan digunakan untuk penerapan algoritma Apriori dalam menganalisis pola pembelian. Selain itu, data diperoleh melalui observasi langsung terhadap aktivitas penjualan di toko.
+Perancangan Sistem
+Pada tahap ini, dilakukan desain sistem informasi penjualan berbasis web. Perancangan dilakukan dengan menggunakan UML, yang mencakup use case diagram, activity diagram, sequence diagram, dan class diagram. Tujuan dari tahap ini adalah untuk menggambarkan alur proses sistem secara visual sebelum masuk pada tahap implementasi.
+Penerapan Algoritma Apriori
+Data transaksi yang telah dikumpulkan kemudian dianalisis menggunakan algoritma Apriori. Proses ini dilakukan untuk menemukan association rules atau pola keterkaitan antar barang yang sering dibeli secara bersamaan. Hasil analisis ini nantinya akan diintegrasikan ke dalam sistem informasi sebagai fitur pendukung pengambilan keputusan.
+
+Implementasi Sistem
+Sistem informasi penjualan dirancang dan diimplementasikan berbasis web menggunakan bahasa pemrograman PHP dan database MySQL. Pada tahap ini, semua fitur yang dirancang sebelumnya, termasuk pengelolaan transaksi dan analisis pola pembelian, direalisasikan dalam bentuk aplikasi yang dapat dijalankan oleh pengguna.
+Pengujian Sistem
+Sistem yang telah diimplementasikan diuji menggunakan metode black box testing. Tujuan pengujian ini adalah memastikan bahwa seluruh fungsi sistem berjalan sesuai dengan kebutuhan dan tidak terjadi kesalahan pada saat digunakan oleh pengguna.
+Analisis dan Evaluasi Hasil
+Setelah pengujian dilakukan, peneliti menganalisis hasil implementasi sistem untuk menilai sejauh mana sistem dapat membantu pemilik Toko Martin dalam mengelola transaksi dan menganalisis pola pembelian barang. Evaluasi juga dilakukan berdasarkan umpan balik dari pengguna.
+Kesimpulan dan Saran
+Tahap terakhir adalah menyusun kesimpulan dari hasil penelitian yang diperoleh serta memberikan saran untuk pengembangan sistem lebih lanjut agar dapat digunakan secara lebih optimal di masa mendatang.
+
+
+
+
+
+
+
+
+
+DAFTAR PUSTAKA
+
+Abdullah, S. N., Aziz, A., & Saifulazri, B. Q. (2023). The Impact of Information Technology on Accounting Systems Towards SME Performance in Malaysia. Journal of Social Economics Research, 10(2), 69–80. https://doi.org/10.18488/35.v10i2.3406
+Aditiya, R., Suwandi, M., Sari, N. R., & Fadhilatunisa, D. (2022). Potensi Sukuk Ritel Dan Sukuk Tabungan Untuk Mempercepat Pemulihan Ekonomi Pasca Pandemi Covid-19. Equilibrium Jurnal Penelitian Pendidikan Dan Ekonomi, 19(01), 79–90. https://doi.org/10.25134/equi.v19i01.4282
+Aufarrizqi, A., Enri, U., & Umaidah, Y. (2024). Market Basket Analysis Untuk Optimalisasi Layout  Mini Market Hugo Menggunakan Algoritma Apriori. Jati (Jurnal Mahasiswa Teknik Informatika), 8(4), 8014–8022. https://doi.org/10.36040/jati.v8i4.10623
+Aviqah, R., Muhammad, A., & Mandala, E. P. W. (2024). Penerapan Metode FP-Growth Dalam Optimalisasi Bisnis Retail. Jurnal Coscitech (Computer Science and Information Technology), 4(3), 821–831. https://doi.org/10.37859/coscitech.v4i3.5487
+Abidin, Z., Amartya, A. K., & Nurdin, A. (2022). Penerapan Algoritma Apriori Pada Penjualan Suku Cadang Kendaraan Roda Dua ( Studi Kasus : Toko Prima Motor Sidomulyo ). 16, 225–232.
+Christanty, L., Nugroho, W. S., Nurcahyono, N., & Maharani, B. (2023). Accounting Information Systems and Financial Literacy Impact on SMEs’ Performance. Maksimum, 13(1), 59. https://doi.org/10.26714/mki.13.1.2023.59-69
+Cleary, P., Quinn, M., Ríkharðsson, P., & Batt, C. (2022). Exploring the Links Between IT Tools, Management Accounting Practices and SME Performance: Perceptions of CFOs in Ireland. Accounting Finance & Governance Review, 28. https://doi.org/10.52399/001c.35440
+Davidson, M. W., Parnell, J. A., & Davenport, S. W. (2024). A Cognitive Bias Awareness Matrix for Enhancing ERP Decision-Making in Entrepreneurial Firms. Journal of Ethics in Entrepreneurship and Technology, 4(1), 38–61. https://doi.org/10.1108/jeet-05-2024-0011
+Excelina, D., Astuti, P., & Mufti, A. (2021). Perancangan Sistem Informasi Penjualan Pada PT Royal Agung Berdikari. Jurnal Riset Dan Aplikasi Mahasiswa Informatika (Jrami), 2(02). https://doi.org/10.30998/jrami.v2i02.1266
+Farahat, A. F., Ambarwati, A. D., & Lestari, A. (2022). Pengaruh E-Commerce, E-Crm, Dan Database Terhadap Sistem Informasi Penjualan (Literature Sistem Informasi Manajemen). Jurnal Ilmu Multidisplin, 1(1), 215–224. https://doi.org/10.38035/jim.v1i1.31
+Fatich, E. V. L. N., Tafrikhatin, A., Bherlinda, Y., & Reformadyananda, A. T. J. (2023). Perancangan Sistem Informasi Kasir Toko Retail Berbasis Web Menggunakan Metode Pos (Point of Sales). Jasatec Journal of Students of Automotive Electronic and Computer, 3(1), 27–36. https://doi.org/10.37339/jasatec.v3i1.1401
+Freddie, F., Kurnia, Y., Arijanto, R., & Yakub, Y. (2021). Perancangan Aplikasi Web Dengan Menggunakan Algoritma Apriori Pada Data Mining Untuk Mengetahui Pola Pembelian Konsumen PT Cipta Tunggal Elektronik. Algor, 3(1), 71–82. https://doi.org/10.31253/algor.v3i1.640
+Goutama, H. G., & Basri, A. (2022). Analisis Dan Perancangan Sistem Informasi Penjualan Pada Pt Buana Merdeka Jaya Berbasis Web. Algor, 4(1), 55–65. https://doi.org/10.31253/algor.v4i1.1529
+Gunawan, G., Andriani, W., & Hidayatullah, F. Z. (2023). Penerapan Metode Association Rule Dan Algoritma Apriori Untuk Analisis Pola Frekuensi Tinggi Prediksi Curah Hujan Di Kota Tegal. Jurnal Teknoif, 11(2), 45–53. https://doi.org/10.21063/jtif.2023.v11.2.45-53
+Hattami, H. M., & Kabra, J. D. (2022). The Influence of Accounting Information System on Management Control Effectiveness: The Perspective of SMEs in Yemen. Information Development, 40(1), 75–93. https://doi.org/10.1177/02666669221087184
+Hendrawan, J., Perwitasari, I. D., Hasyyati, Z., & Hasanah, D. S. (2024). Model UML Sistem Informasi Monitoring Pembayaran SPP Siswa SMA Negeri 1 Binjai. 13(November), 1823–1831.
+Jibril, M., Amin, M., Studi, P., Informasi, S., Teknik, F., & Indragiri, U. I. (2024). Pengujian sistem informasi e-modul pada smpn 1 tempuling menggunakan black box testing 1. 6, 327–332.
+Khrisnawati, E. A., & Renita, D. (2023). Analisis Pengambilan Keputusan Untuk Korelasi Pembelian Produk Menggunakan Metode Association Rules. Jitter Jurnal Ilmiah Teknologi Dan Komputer, 4(3), 1945. https://doi.org/10.24843/jtrti.2023.v04.i03.p02
+Lutfi, A., Alshira’h, A. F., Alshirah, M. H., Al‐Okaily, M., Alqudah, H., Saad, M., Ibrahim, N., & Abdelmaksoud, O. (2022). Antecedents and Impacts of Enterprise Resource Planning System Adoption Among Jordanian SMEs. Sustainability, 14(6), 3508. https://doi.org/10.3390/su14063508
+Marselina, S., Jaman, J. H., & Kurniawan, D. E. (2023). Sales Analysis Using Apriori Algorithm in Data Mining Application on Food and Beverage (F&amp;B) Transactions. Journal of Applied Informatics and Computing, 7(2), 218–223. https://doi.org/10.30871/jaic.v7i2.5026
+Mennekes, T., Röding, T., Wagner, G., & Schramm‐Klein, H. (2023). Do Customers Evaluate the Competence of SME Retailers and Retail Chains Differently in The context of Online Product Presentations? International Journal of Retail & Distribution Management, 51(9/10), 1239–1254. https://doi.org/10.1108/ijrdm-10-2022-0419
+Ngan, N. T. (2024). Factors Affecting the Effectiveness of Internal Control Systems in Small and Medium Enterprises Operating in the Trade and Service Sector in Binh Duong Province. International Journal of Management & Entrepreneurship Research, 6(10), 3577–3588. https://doi.org/10.51594/ijmer.v6i10.1680
+Pah, C. E. A., Lubalu, N. A., Sitanggang, M. H., Henuk, R. D., & Ledoh, J. R. M. (2023). Perancangan Dan Pembuatan Sistem Kasir Dan Laporan Transaksi Pada Toko Kopi Sebelasduabelas. Bakti Cendana, 6(2), 165–180. https://doi.org/10.32938/bc.6.2.2023.165-180
+Putra, C. (2021). Rancang Bangun Sistem Informasi Penjualan Sayur Online Berbasis Android. Jurnal Sistem Informasi Dan Sains Teknologi, 3(1). https://doi.org/10.31326/sistek.v3i1.851
+Putra, Y. S., Kurniawan, R., & Wijaya, Y. A. (2024). Penerapan Data Mining Menggunakan Algoritma Fp-Growth Pada Data Penjualan Sembako. Jati (Jurnal Mahasiswa Teknik Informatika), 8(1), 561–567. https://doi.org/10.36040/jati.v8i1.8391
+Randi. (2021). PERANCANGAN SISTEM INFORMASI PEMESANAN CATERING BERBASIS WEB  (Studi Kasus : Rumah Makan Ndek Ranto). Jurnal Teknologi Informasi Dan Komunikasi, 12(2), 12–21. https://doi.org/10.51903/jtikp.v12i2.279
+Ridla, M. A., Fajriyanto, & Marzuqi, M. (2023). Implementasi Algoritma Apriori Untuk Menentukan Pola Transaksi Penjualan Berbasis Web. Jtim Jurnal Teknologi Informasi Dan Multimedia, 5(3), 196–207. https://doi.org/10.35746/jtim.v5i3.399
+Rosmayati, I., Wahyuningsih, W., Harahap, E. F., & Hanifah, H. S. (2023). Implementasi Data Mining Pada Penjualan Kopi Menggunakan Algoritma Apriori. Jurnal Algoritma, 20(1), 99–107. https://doi.org/10.33364/algoritma/v.20-1.1259
+Shafitri, N., & R.L, D. Y. (2024). Pembuatan Sistem Informasi Penjualan Pada Umkm Di Mamaci Dengan Menerapkan Plugin Woocommerce Dan Theme Wootisfy. Jekin - Jurnal Teknik Informatika, 4(2), 57–64. https://doi.org/10.58794/jekin.v4i2.699
+Sofialaela, A., Rahaningsih, N., & Ali, I. (2024). Optimasi Pola Penjualan Di Toko Kelontong Sumber Rejeki Bandung Melalui Analisis Asosiasi Dengan Algoritma Fp-Growth. Jati (Jurnal Mahasiswa Teknik Informatika), 8(2), 1916–1920. https://doi.org/10.36040/jati.v8i2.9059
+Subaegi, A., Faqih, A., & Anam, K. (2024). Implementasi Data Mining Asosiasi Pada Data Transaksi Es Teh Solo Jatibarang Menggunakan Algoritma Fp-Growth Dalam Menentukan Strategi Penjualan. Jati (Jurnal Mahasiswa Teknik Informatika), 7(6), 3244–3251. https://doi.org/10.36040/jati.v7i6.8164
+Sugiyono. (2021). Metode penelitian kuantitatif, kualitatif, dan R&D.
+Voutama, A. (2022). Sistem Antrian Cucian Mobil Berbasis Website Menggunakan Konsep CRM dan Penerapan UML Website-Based Car Wash Queuing System Using the Concept of CRM ( Customer Relationship Management ) and UML Application. 11(28), 103–111. https://doi.org/10.34010/komputika.v11i1.4677
+YU, S. I., LEE, T. H., TEOH, M. T. T., & Ling, C. C. (2021). Factors Influencing Behavior Intention Towards Accounting Information System: A Study of Smes in Malaysia. Quantum Journal of Social Sciences and Humanities, 2(3), 67–86. https://doi.org/10.55197/qjssh.v2i3.72
+Yudhistira, M., Rohman, R. S., & Marsusanti, E. (2023). Penerapan Association Rule Menggunakan Algoritma Apriori Untuk Meningkatkan Penjualan Di Kandang Kopi Tasikmalaya. Indonesian Journal Computer Science, 2(2), 87–94. https://doi.org/10.31294/ijcs.v2i2.2497
+ 
